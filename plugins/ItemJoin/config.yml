@@ -1,0 +1,73 @@
+# +----------------------------------------------------------------------------------------------+ #
+# |                        _____                      _____                                      | #
+# |                       |_   _|_                   |_   _|     _                               | #
+# |                         | | | |                    | |      (_)                              | #
+# |                         | | | |_ ___  _ __ ___     | | ____  _ ____                          | #
+# |                         | | | __/ _ \| '_ ` _ \ _  | |/ _  \| |  _ \                         | #
+# |                        _| |_| ||  __/| | | | | | |_| | (_|  | | | | |                        | #
+# |                       |_____|\__\___||_|_| |_|_|\____/\____/|_|_| |_|                        | #
+# |                                                                                              | #
+# |                      ItemJoin's Configuration Settings, by RockinChaos                       | #
+# |                                                                                              | #
+# |     Source Code:     https://github.com/RockinChaos/ItemJoin                                 | #
+# |     Bug Reports:     https://github.com/RockinChaos/ItemJoin/issues                          | #
+# |     Wiki (Docs):     https://github.com/RockinChaos/ItemJoin/wiki                            | #
+# |     Discord Support: https://discord.gg/D5FnJ7C                                              | #
+# |                                                                                              | #
+# +----------------------------------------------------------------------------------------------+ #
+# 
+# Modifying the Version will cause this file to break and regenerate.
+config-Version: 8
+Language: English
+General:
+  CheckforUpdates: false
+  Metrics-Logging: true
+  Log-Commands: true
+  ignoreErrors: false
+  ignoreDepend: NONE
+  Debugging: false
+Database:
+  MySQL: false
+  database: database_name
+  prefix: ij_
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  pass: password
+Settings:
+  HeldItem-Slot: 0
+  HeldItem-Triggers: JOIN, RESPAWN, WORLD-SWITCH
+  HeldItem-Animations: true
+  Default-Triggers: JOIN, RESPAWN, WORLD_SWITCH
+  DataTags: true
+Permissions:
+  Obtain-Items: false
+  Obtain-Items-OP: false
+  Commands-Get: false
+  Commands-OP: false
+  Movement-Bypass: false
+Clear-Items:
+  Type: Vanilla
+  Delay-Tick: 2
+  Join: mia, mia_the_end, world, world_the_end
+  Quit: false
+  World-Switch: false
+  Region-Enter: false
+  Options: PROTECT, PROTECT_OP, PROTECT_CREATIVE
+  Blacklist: '{id:BEDROCK}, {slot:9}, {name:Blazefury}'
+Active-Commands:
+  commands:
+  - 'console: itemjoin get Server %luckperms_prefix%%player%'
+  - 'message: &cWelcome to the server %luckperms_prefix%%player%!'
+  - 'player: gamemode 2'
+  - 'first-join: say This is a command only executed once per world, per player.'
+  commands-sequence: SEQUENTIAL
+  triggers: JOIN
+  enabled-worlds: DISABLED
+Prevent:
+  Chat: false
+  Pickups: true
+  itemMovement: false
+  Self-Drops: true
+  Death-Drops: false
+  Bypass: CREATIVE

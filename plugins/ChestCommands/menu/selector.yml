@@ -1,0 +1,61 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  name: '&e&lServer Selector'
+  rows: 3
+  commands:
+  - '99acers'
+  auto-refresh: 5
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: true
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+kaustubh:
+  MATERIAL: bed
+  POSITION-X: 3
+  POSITION-Y: 2
+  NAME: '&a&lBedwars'
+  LORE: 
+    - 'Play Bedwars of &a&lTanay&e&lSMP'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'tell: &eSending your ass to &a&lBedwars&f...'
+
+pranav:
+  MATERIAL: enderpearl
+  POSITION-X: 5
+  POSITION-Y: 2
+  NAME: '&e&lSkywars'
+  LORE: 
+    - 'Play Skywars of &a&lTanay&e&lSMP'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'tell: &eSending your ass to &e&lSkywars&f...'
+
+shlok:
+  MATERIAL: bedrock
+  POSITION-X: 7
+  POSITION-Y: 2
+  NAME: '&b&lSurvival'
+  LORE: 
+    - 'Enjoy &b&lSurvival &7of &a&lTanay&e&lSMP'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'tell: &eSending your ass to &b&lSurvival&f...'
+  
+
+

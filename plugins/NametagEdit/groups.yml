@@ -1,0 +1,16 @@
+Groups:
+  mvp2:
+    Permission: nte.mvp2
+    Prefix: '&a[&e&lMVP&b+&a] &2'
+    Suffix: ''
+    SortPriority: 1
+  mvp:
+    Permission: nte.mvp
+    Prefix: '&a[&e&lMVP&a] &2'
+    Suffix: ''
+    SortPriority: 2
+  vip:
+    Permission: nte.vip
+    Prefix: '&a[&a&lVIP&a] &2'
+    Suffix: ''
+    SortPriority: 3

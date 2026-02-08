@@ -1,0 +1,14 @@
+NormalMessages:
+  Join:
+    enabledSound: true
+    Sound: LEVEL_UP
+    Message: '%luckperms_prefix%%player% &7joined the game (%server_online%/%server_max%)'
+  Leave:
+    Message: ''
+JoinTitle:
+  Seconds:
+    FadeIn: 1
+    Stay: 1.5
+    FadeOut: 1
+  Title: '&b&lWelcome'
+  Subtitle: '%player%'

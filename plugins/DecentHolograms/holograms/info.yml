@@ -1,0 +1,16 @@
+location: mia:51.482:102.000:95.458
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lInfo &fof the SMP'
+    height: 1.0
+  - content: '&cCurrently there is no &eInfo&f.'
+    height: 0.3
+  - content: '&cNo Players at the moment&f.'
+    height: 0.3
+  actions: {}

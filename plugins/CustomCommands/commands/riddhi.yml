@@ -1,0 +1,23 @@
+aliases: [Riddhi, riddhi, padia]
+
+
+
+patterns:
+
+  - pattern: ''
+    description: fuck yourself
+    permission: myserver.permission.riddhi
+    worlds:
+      whitelist: [mia]
+      blacklist: []
+    cooldown: 120 SECOND
+    actions:
+      - type: NOTIFY
+        notify:
+          message: '&aYou are now &bSUPERMAN&a!'
+          sound: ENTITY_PLAYER_LEVELUP
+          title: '&b&lSUPERMAN!'
+          title_subtitle: '%luckperms_prefix%%player_name%'
+          title_fade_in: 4 TICK
+          title_duration: 24 TICK
+          title_fade_out: 4 TICK

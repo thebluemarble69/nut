@@ -1,0 +1,337 @@
+# fr_FR translation by maxime_n2 & SevenX
+# Plugin Message Prefix
+prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
+
+# Command Description Messages
+command-error-missing-effects-or-styles: "&cVous devez avoir acc\xe8s aux effets et aux styles pour utiliser cette commande !"
+command-error-unknown: '&cCommande inconnue, utilisez &b/pp help &cpour afficher la liste des commandes disponibles pour ce plugin.'
+command-descriptions: '&eLes commandes suivantes sont disponibles :'
+command-descriptions-usage: '&e/pp %cmd% %args%'
+command-descriptions-help-1: '&7> &b/pp %cmd% &e- %desc%'
+command-descriptions-help-2: '&7> &b/pp %cmd% %args% &e- %desc%'
+command-descriptions-help-other: "&7> &b/ppo <player> <command> &e- Ex\xe9cute une commande /pp en tant qu'un autre joueur."
+command-description-add: Ajoutez une nouvelle particule
+command-description-data: "Voir les param\xe8tres utilis\xe9es par la particule"
+command-description-default: "Commande principale. Par d\xe9faut elle ouvre l'interface."
+command-description-edit: Modifiez une particule
+command-description-effects: "Affichez une liste des effets utilis\xe9s"
+command-description-fixed: "G\xe9rez vos effets fixes"
+command-description-group: "G\xe9rez vos groupes d'effets"
+command-description-gui: Affichez l'interface pour modifier facilement les effets
+command-description-help: "Affichez le menu d'aide... Vous y \xeates d\xe9j\xe0 !"
+command-description-info: Voir la description d'une de vos particules actives
+command-description-list: Listez les IDs de vos particules actives
+command-description-reload: Rechargez le fichier config.yml et de langue
+command-description-remove: Supprimez vos particules actives.
+command-description-reset: Supprimez toutes vos particules actives
+command-description-styles: Affichez une liste des styles de particules que vous utilisez
+command-description-toggle: "Activez ou d\xe9sactivez vos particules actives"
+command-description-use: Modifiez votre particule primaire
+command-description-version: "Affichez la version du plugin et son cr\xe9ateur"
+command-description-worlds: "Voir les mondes o\xf9 ce plugin n'est pas autoris\xe9"
+
+# Fixed Particle Command Description Messages
+command-description-fixed-create: "&e/pp fixed create <<x> <y> <z>|<looking>> <effect> <style> [data] - Cr\xe9ez une particule fixe"
+command-description-fixed-create-console: "&e/pp fixed create <x> <y> <z> <world> <effect> <style> [data] - Cr\xe9ez une particule fixe"
+command-description-fixed-edit: '&e/pp fixed edit <id> <effect|style|data|location> <args> - Modifiez une partie d''une particule fixe par son ID'
+command-description-fixed-remove: '&e/pp fixed remove <id> - Supprimez une particule fixe par son ID'
+command-description-fixed-list: '&e/pp fixed list - Affiche l''ID de tous vos effets fixes'
+command-description-fixed-info: '&e/pp fixed info <id> - Voir des informations sur l''une de vos particules fixe'
+command-description-fixed-clear: '&e/pp fixed clear <radius> - Supprimez tous les effets fixe de tous les joueurs d''un rayon'
+command-description-fixed-clear-console: '&e/pp fixed clear <radius> <x> <y> <z> <world> - Supprimez tous les effets fixe de tous les joueurs d''un rayon'
+command-description-fixed-teleport: "&e/pp fixed teleport <id> - Vous t\xe9l\xe9porte vers un de vos effets fixes"
+
+# Group Command Description Messages
+command-description-group-save: '&e/pp group save <name> - Sauvegardez toutes les particules actives dans un nouveau groupe'
+command-description-group-load: "&e/pp group load <name> - Chargez toutes les particules sauvegard\xe9es dans un groupe"
+command-description-group-remove: "&e/pp group remove <name> - Supprimez un groupe que vous avez cr\xe9\xe9"
+command-description-group-list: "&e/pp group list <name> - Voir toutes les particules sauvegard\xe9es d'un groupe que vous avez cr\xe9\xe9"
+command-description-group-info: "&e/pp group info <name> - Voir toutes les particules sauvegard\xe9es du groupe"
+
+# ID Messages
+id-invalid: "&cL'ID rentr\xe9e n'est pas valide, il doit \xeatre un nombre entier positif"
+id-unknown: "&cVous n'avez pas de particules appliqu\xe9es avec : &b%id% &c!"
+
+# Other Messages
+other-no-permission: "&cVous n'avez pas la permission pour ex\xe9cuter une commande /pp en tant qu'un autre joueur."
+other-missing-args: '&cVous oubliez des arguments dans votre commande. &b/ppo <player> <command>'
+other-unknown-player: "&cLe joueur &b%player% &cn'a pas \xe9t\xe9 trouv\xe9. Il doit \xeatre en ligne."
+other-unknown-command: '&cLa commande &b/pp %cmd% &cn existe pas.'
+other-success: "&Commande /pp ex\xe9cut\xe9e. &b%player%&e. Retour de la commande :"
+
+# Add Messages
+add-reached-max: Impossible d'appliquer la particule, vous avez atteint la limite de particules qui est de &b%amount% &c!
+add-particle-applied: "&aUne nouvelle particule est appliqu\xe9e avec l'effet &b%effect%&a, le style &b%style%&a, et les param\xe8tres &b%data% &a!"
+data-no-args: '&cVous oubliez des arguments dans l''effet. Utilisation de la commande: &b/pp data <effect>'
+
+# Edit Messages
+edit-invalid-property: "cLa propri\xe9t\xe9 &b%prop% &cest interdite. Propri\xe9t\xe9s valides : &beffect&c, &bstyle&c, &bdata"
+edit-success-effect: "&aVotre particule avec l'ID de &b%id% &aa son effet chang\xe9 \xe0 &b%effect% &a!"
+edit-success-style: "&aVotre particule avec l'ID de &b%id% &aa son style chang\xe9 \xe0 &b%style% &a!"
+edit-success-data: "&aVotre particule avec l'ID de &b%id% &aa ses param\xe8tres chang\xe9s \xe0 &b%data% &a!"
+
+# Group Messages
+group-invalid: "&cUn groupe ou un preset de groupe sauvegard\xe9 n'existe pas avec le nom &b%name% &c!"
+group-no-permission: '&cVous oubliez une permission pour un style ou un effet afin d''utiliser les groupe &b%group% &c!'
+group-preset-no-permission: '&cVous oubliez une permission pour un style ou un effet afin d''utiliser les presets du groupe &b%group% &c!'
+group-reserved: "&cLe nom de groupe &bactive &cest r\xe9serv\xe9 et ne peut pas \xeatre utiliser !"
+group-no-name: "&cVous n'avez pas rentr\xe9 de nom de groupe ! &b/pp %cmd% <groupName>"
+group-save-reached-max: '&cImpossible de sauvegarder le groupe, vous avez atteint le nombre maximun de groupes !'
+group-save-no-particles: "&cImpossible de sauvegarder le groupe, vous n'avez pas appliqu\xe9 de particules !"
+group-save-success: "&aVos particules actuelles ont \xe9t\xe9 sauvegard\xe9es sous le nom de groupe &b%name% &a!"
+group-save-success-overwrite: "&aLe groupe &b%name% &aa \xe9t\xe9 mis \xe0 jour avec vos particules actuelle !"
+group-load-success: "&b%amount% &aparticule(s) appliqu\xe9s venant du groupe sauvegard\xe9 nomm\xe9 &b%name% &a!"
+group-load-preset-success: "&b%amount% &aparticule(s) appliqu\xe9s venant du preset sauvegard\xe9 nomm\xe9 &b%name% &a!"
+group-unload-success: "&aEnlev\xe9 &b%amount% &aparticle(s) correspondant au groupe &b%name%&a !"
+group-remove-preset: '&cVous ne pouvez pas supprimer un groupe de presets !'
+group-remove-success: "&aGroupe de particules &b%name% &asupprim\xe9 !"
+group-info-header: "&eLe groupe &b%group% &eposs\xe9de les particules suivantes :"
+group-list-none: "&eVous n'avez pas de groupes de particules sauvegard\xe9s !"
+group-list-output: "&eVous avez ces groupes suivants sauvegard\xe9s : &b%info%"
+group-list-presets: '&eCes presets de groupes suivants sont disponibles : &b%info%'
+
+# Reload Messages
+reload-success: "&aLe plugin a \xe9t\xe9 recharg\xe9..."
+reload-no-permission: '&cVous n''avez pas la permission pour recharger la configuration de ce plugin !'
+
+# Remove Messages
+remove-no-args: "&cVous n'avez pas rentrer d'ID \xe0 supprimer ! &b/pp remove <ID>"
+remove-id-success: "&aVotre particule avec l'ID &b%id% &aa \xe9t\xe9 supprim\xe9e !"
+remove-effect-success: '&aSuppression de &b%amount% &ade votre particule avec l''effet &b%effect% &a!'
+remove-effect-none: "&cVous n'avez pas de particules appliqu\xe9es avec l'effet &b%effect% &c!"
+remove-style-success: '&aSuppression &b%amount% &ade votre particule avec le style &b%style% &a!'
+remove-style-none: "&cVous n'avez pas de particules appliqu\xe9es avec le style &b%style% &c!"
+remove-effect-style-none: "&cVous n'avez pas de particules appliqu\xe9es avec l'effet ou le style &b%name% &c!"
+remove-unknown: '&cL''effect avec le nom ou le style &b%name% &cn''existe pas !'
+
+# List Messages
+list-none: '&eVous n''avez pas de particules actives.'
+list-you-have: "&eVous avez les particules suivantes appliqu\xe9es :"
+list-output: "&eID: &b%id% &eEffet: &b%effect% &eStyle: &b%style% &eParam\xe8tre: &b%data%"
+
+# Toggle Messages
+toggle-on: '&eLes particules sont maintenant en mode &aON &e!'
+toggle-off: '&eLes particules sont maintenant en mode &cOFF &e!'
+
+# Use Messages
+use-particle-modified: "&aVotre particule primaire a \xe9t\xe9 modifi\xe9e pour utiliser l'effet &b%effect%&a, le style &b%style%&a, et les donn\xe9es &b%data%&a !"
+
+# Color Messages
+rainbow: '&cr&6a&ei&an&bb&9o&dw'
+random: "al\xe9atoire"
+
+# Effect Messages
+effect-no-permission: '&cVous n''avez pas la permission pour utiliser la particule &b%effect% &c!'
+effect-invalid: '&cL''effet &b%effect% &cn existe pas ! Utilisez &b/pp effects &cpour afficher les effets disponibles.'
+effect-list: '&eVous pouvez utiliser les effets suivants : &b%effects%'
+effect-list-empty: '&cVous n''avez pas la permission pour utiliser des effets !'
+
+# Style Messages
+style-no-permission: '&cVous n''avez pas la permission pour utiliser le style &b%style% &c!'
+style-event-spawning-info: "&eNote: Le style &b%style% &efait apparaitre des particules seulement lors d'\xe9v\xe8nements sp\xe9cifiques."
+style-invalid: '&cLe style &b%style% &cn''existe pas ! Utilisez &b/pp styles &cpour afficher les styles disponibles.'
+style-list: '&eVous pouvez utiliser les styles suivants : &b%styles%'
+
+# Data Messages
+data-usage-none: "&eL'effet &b%effect% &en'est pas param\xe9trable."
+data-usage-block: "&eL'effet &b%effect% &erequi\xe8re l'ID du bloc ! &bFormat: <blockName>"
+data-usage-item: "&eL'effet &b%effect% &erequi\xe8re l'ID de l'item ! &bFormat: <itemName>"
+data-usage-color: "&eL'effet &b%effect% &erequi\xe8re l'ID de la couleur ! &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-usage-note: "&eL'effet &b%effect% &erequi\xe8re l'ID de la note ! &bFormat: <0-24>|<&brainbow>|<random>"
+data-usage-color-transition: "&eL'effet &b%effect% &erequi\xe8re l'ID de transition de couleur ! &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random> <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-usage-vibration: "&eL'effet &b%effect% &erequi\xe8re l'ID de la vibration ! &bFormat: <duration>"
+data-invalid-block: "&cL'ID du bloc que vous avez rentr\xe9 n'est pas valide ! &bFormat: <blockName>"
+data-invalid-item: "&cL'ID de l'item que vous avez rentr\xe9 n'est pas valide ! &bFormat: <itemName>"
+data-invalid-color: "&cL'ID de la couleur que vous avez rentr\xe9 n'est pas valide ! &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-invalid-note: "&cL'ID de la note que vous avez rentr\xe9 n'est pas valide ! &bFormat: <0-24>|<&brainbow>|<random>"
+data-invalid-color-transition: "&cL'ID de transition de couleur que vous avez rentr\xe9 n'est pas valide ! &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random> <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-invalid-vibration: "&cL'ID de la vibration que vous avez rentr\xe9 n'est pas valide ! &bFormat: <duration>"
+data-invalid-material-not-item: "&cL'ID &b%material% &cne correspond pas \xe0 un item !"
+data-invalid-material-not-block: "&cL'ID &b%material% &cne correspond pas \xe0 un bloc !"
+data-invalid-material-item: '&cL''ID &b%material% n''existe pas !'
+data-invalid-material-block: '&cL''ID &b%material% n''existe pas !'
+
+# World Messages
+disabled-worlds: "&eLes particules sont d\xe9sactiv\xe9es dans ces mondes : &b%worlds%"
+disabled-worlds-none: "&Les particules sont d\xe9sactiv\xe9es dans aucuns mondes."
+
+# Reset Message
+reset-success: "&b%amount% &aparticule(s) actives supprim\xe9es !"
+reset-others-success: "&aParticules enlev\xe9es pour &b%other%&a !"
+reset-others-none: "&eAucune particule n'a \xe9t\xe9 enlev\xe9e pour &b%other%&e."
+
+# Fixed Create Messages
+fixed-create-missing-args: "&cImpossible de cr\xe9er un effet fixe, vous oubliez des arguments : &b%amount%"
+fixed-create-invalid-coords: "&cImpossible de cr\xe9er un effet fixe, coordonn\xe9es invalides !"
+fixed-create-out-of-range: "&cImpossible de cr\xe9er un effet fixe, Vous devez \xeatre \xe0 &b%range% &cblocs de la position rentr\xe9e !"
+fixed-create-looking-too-far: "&cImpossible de cr\xe9er un effet fixe, vous \xeates trop loin du bloc que vous regardez !"
+fixed-create-effect-invalid: "&cImpossible de cr\xe9er un effet fixe, l effet &b%effect% &cn'existe pas !"
+fixed-create-effect-no-permission: "&cImpossible de cr\xe9er un effet fixe, vous n'avez pas la permission pour utiliser le style &b%effect% &c!"
+fixed-create-style-invalid: "&cImpossible de cr\xe9er un effet fixe, le style &b%style% &cn'existe pas!"
+fixed-create-style-no-permission: "&cImpossible de cr\xe9er un effet fixe, vous n'avez pas la permission pour utiliser le style &b%style% &c!"
+fixed-create-style-non-fixable: "&cImpossible de cr\xe9er un effet fixe, le style &b%style% &cne peut pas \xeatre utilis\xe9 en tant qu'effet fixe !"
+fixed-create-data-error: "&cImpossible de cr\xe9er un effet fixe, l'ID rentr\xe9e n'est pas valide ! Utilisez &b/pp data <effect> &cpour afficher les IDs valides."
+fixed-create-success: "&aL'effet fixe \xe0 \xe9t\xe9 cr\xe9er."
+
+# Fixed Edit Messages
+fixed-edit-missing-args: '&cImpossible de modifier l''effet fixe, vous oubliez des arguments !'
+fixed-edit-invalid-id: '&cImpossible de modifier l''effet fixe, ID incorrecte !'
+fixed-edit-invalid-property: "&cImpossible de modifier l'effet fixe, argument incorrect ! Seuls localisation, effet, style, et param\xe8tre sont valides."
+fixed-edit-invalid-coords: "&cImpossible de modifier l'effet fixe, coordonn\xe9e incorrecte !"
+fixed-edit-out-of-range: "&cImpossible de modifier l'effet fixe, vous devez \xeatre \xe0 &b%range% &cblocs de l'emplacement d\xe9sir\xe9 !"
+fixed-edit-looking-too-far: "&cImpossible de modifier l'effet fixe, vous \xeates trop loin du bloc que vous regardez !"
+fixed-edit-effect-invalid: '&cImpossible de modifier l''effet fixe, l''effet &b%effect% &cn''existe pas !'
+fixed-edit-effect-no-permission: '&cImpossible de modifier l''effet fixe, vous n''avez pas la permission pour utiliser l''effet &b%effect% &c!'
+fixed-edit-style-invalid: '&cImpossible de modifier l''effet fixe, le style &b%style% &cn''existe pas !'
+fixed-edit-style-no-permission: '&cImpossible de modifier l''effet fixe, vous n''avez pas la permission pour utiliser le style &b%style% &c!'
+fixed-edit-style-non-fixable: "&cImpossible de modifier l'effet fixe, the style &b%style% &cne peut pas \xeatre utilis\xe9 dans des effets fixes !"
+fixed-edit-data-error: "&cImpossible de modifier l'effet fixe, param\xe8tre incorrect ! Utilisez &b/pp data <effect> pour afficher les param\xe8tres valides."
+fixed-edit-data-none: "&cImpossible de modifier l'effet fixe, l'effet ne requi\xe8re pas de param\xe8tres !"
+fixed-edit-success: "&aMise \xe0 jour de &b%prop% &ade l'effet fixe avec l'ID &b%id% &a!"
+
+# Fixed Remove Messages
+fixed-remove-invalid: '&cImpossible de supprimer l''effet fixe, vous n''avez pas d effets fixes avec l''ID &b%id% &c!'
+fixed-remove-no-args: "&cVous n'avez pas rentrer d'ID \xe0 supprimer !"
+fixed-remove-args-invalid: "&cImpossible de supprimer, l'ID doit \xeatre un nombre !"
+fixed-remove-success: "&aTous vos effets fixes avec l'ID &b%id% &aont \xe9t\xe9 supprim\xe9s !"
+
+# Fixed List Messages
+fixed-list-none: '&eVous n''avez pas d''effets fixes !'
+fixed-list-success: '&eVous avez des effets fixes avec ces IDs :&b%ids%'
+
+# Fixed Info Messages
+fixed-info-invalid: '&cImpossible d''obtenir l''information, vous n''avez pas de particules fixes avec l''ID &b%id%& c!'
+fixed-info-no-args: "&cVous n'avez pas rentr\xe9e d'ID pour obtenir d'infomations !"
+fixed-info-invalid-args: "&cImpossible d'obtenir l'information, vous n'avez pas de particules fixes avec l'ID, l'ID sp\xe9cifi\xe9e doit \xeatre un nombre !"
+fixed-info-success: '&eID: &b%id% &eWorld: &b%world% &eX: &b%x% &eY: &b%y% &eZ: &b%z% &eEffect: &b%effect% &eStyle: &b%style% &eData: &b%data%'
+
+# Fixed Clear Messages
+fixed-clear-no-permission: '&cVous n''avez la permission pour supprimer les effets proches !'
+fixed-clear-no-args: "&cVous n'avez pas rentr\xe9 de rayon !"
+fixed-clear-invalid-args: "&cLe rayon rentr\xe9 n'est pas valide, il doit \xeatre un nombre rond !"
+fixed-clear-success: "&b%amount% &aeffets ont \xe9t\xe9 supprim\xe9s dans un rayon &b%range% &cblocs !"
+
+# Fixed Teleport Message
+fixed-teleport-no-permission: "&cVous n'avez pas l'autorisation de vous t\xe9l\xe9porter dans les effets fixes !"
+fixed-teleport-no-args: "&cVous n'avez pas sp\xe9cifi\xe9 d'identifiant pour la t\xe9l\xe9portation !"
+fixed-teleport-invalid-args: "&cImpossible de se t\xe9l\xe9porter, l'ID sp\xe9cifi\xe9 n'est pas valide !"
+fixed-teleport-success: "&eT\xe9l\xe9port\xe9 \xe0 votre effet fixe avec un ID de &b%id%&e !"
+
+# Fixed Other Messages
+fixed-no-permission: '&cVous n''avez pas la permission d''ajouter des effets fixes !'
+fixed-max-reached: '&cVous avez atteint le nombre maximum de particules fixes !'
+fixed-invalid-command: '&cArguments invalides pour la commande &b/pp fixed&c!'
+
+# Plugin Update Message
+update-available: '&eLa version (&bv%new%&e) est disponible ! vous utilisez la version &bv%current%&d. https://www.spigotmc.org/resources/playerparticles.40261/'
+
+# GUI Messages
+gui-disabled: "&cL'interface du plugin \xe0 \xe9t\xe9 d\xe9sactiv\xe9e !"
+gui-no-permission: '&cVous n''avez pas la permission d''ouvrir l''interface graphique !'
+
+# GUI Color Messages
+gui-color-icon-name: '&a'
+gui-color-info: '&e'
+gui-color-subtext: '&b'
+gui-color-unavailable: '&c'
+
+# GUI Info Messages
+gui-commands-info: Affichez des informations avec &b/pp help
+gui-toggle-visibility-on: Les particules sont actuellement &avisibles
+gui-toggle-visibility-off: "Les particules sont actuellement &ccach\xe9es"
+gui-toggle-visibility-info: "Cliquer pour basculer la visibilit\xe9 des particules"
+gui-back-button: "Retour en arri\xe8re"
+gui-next-page-button: Page Suivante (%start%/%end%)
+gui-previous-page-button: "Page Pr\xe9c\xe9dente (%start%/%end%)"
+gui-click-to-load: 'Cliquez pour charger : %amount%'
+gui-shift-click-to-delete: Touche SHIFT + clic-gauche pour effacer un effet
+gui-particle-info: "  - ID: &b%id% &eEffet: &b%effect% &eStyle: &b%style% &eParam\xe8tre: &b%data%"
+gui-playerparticles: PlayerParticles
+gui-active-particles: 'Particules actives: &b%amount%'
+gui-saved-groups: "Groupes sauvegard\xe9s: &b%amount%"
+gui-fixed-effects: 'Effets fixes: &b%amount%'
+
+# GUI Edit Primary Messages
+gui-edit-primary-effect: Editez l'effet primaire
+gui-edit-primary-effect-description: Editez l effet d une de vos particules primaire
+gui-edit-primary-style: Editez le style primaire
+gui-edit-primary-style-missing-effect: "Vous devez d'abord s\xe9lectionner un effet !"
+gui-edit-primary-style-description: Editez le style d'une particule primaire
+gui-edit-primary-data: "Editez les param\xe8tres d'une particules primaire"
+gui-edit-primary-data-missing-effect: "Vous devez d'abord s\xe9lectionner un effet"
+gui-edit-primary-data-unavailable: "Votre effet primaire n'est pas param\xe9trable"
+gui-edit-primary-data-description: "Editer les param\xe8res de votre effet primaire"
+
+# GUI Manage Particles Messages
+gui-manage-your-particles: "G\xe9rez vos particules"
+gui-manage-your-particles-name: "G\xe9rez vos particules"
+gui-manage-your-particles-description: "Cr\xe9ez, \xe9ditez, et supprimez vos particules"
+gui-manage-your-groups: "G\xe9rez vos groupes"
+gui-manage-your-groups-name: "G\xe9rez vos groupes"
+gui-manage-your-groups-description: "Cr\xe9ez, \xe9ditez, et supprimez vos groupes particules"
+
+# GUI Load Messages
+gui-load-a-preset-group: Chargez un groupe de presets
+gui-load-a-preset-group-description: "Chargez un groupe de particules d\xe9j\xe0 fait"
+
+# GUI Save Messages
+gui-save-group: Sauvegardez un nouveau groupe
+gui-save-group-description: "Cliquez pour sauvegardez un nouveau groupe. Vous allez \xeatre invit\xe9\n\xe0 \xe9crire un nouveau nom dans le tchat."
+gui-save-group-full: Vous avez atteint le nombre maximal de groupe !
+gui-save-group-no-particles: "Vous avez aucunes particules appliqu\xe9es"
+gui-save-group-hotbar-message: '&eTapez &b1 &enom dans le tchat pour le nouveau nom du groupe. Tapez &ccancel&e pour annuler. (&b%seconds%&es restants)'
+gui-save-group-chat-message: '&eUtilisez &b/pp group save <name> &epour enregistrer un nouveau groupe de particules.'
+
+# GUI Reset Messages
+gui-reset-particles: "R\xe9initialisez vos particules"
+gui-reset-particles-description: Supprimez vos particules actives
+
+# GUI Misc Messages
+gui-particle-name: 'Particule #%id%'
+gui-click-to-edit-particle: "Cliquez pour \xe9diter cette particule"
+gui-editing-particle: 'Edition particule #%id%'
+
+# GUI Edit Messages
+gui-edit-effect: Editez l'effet
+gui-edit-effect-description: "Cliquez pour \xe9diter l'effet de cette particule"
+gui-edit-style: Editez le style
+gui-edit-style-description: "Cliquez pour \xe9diter le style de cette particule"
+gui-edit-data: "Editez les param\xe8res"
+gui-edit-data-description: "Cliquez pour \xe9diter les param\xe8tres de la particule"
+gui-edit-data-unavailable: "Cliquez pour \xe9diter les param\xe8res de cette particule"
+gui-data-none: aucuns
+
+# GUI Create Messages
+gui-create-particle: "Cr\xe9ez une nouvelle particule"
+gui-create-particle-description: "Cr\xe9ez une nouvelle particule"
+gui-create-particle-unavailable: "Vous avez atteint le nombre maximum de particules que vous pouvez cr\xe9er"
+
+# GUI Select Messages
+gui-select-effect: "S\xe9lectionnez les effets"
+gui-select-effect-description: "Mettez les effets de la particules \xe0 &b%effect%"
+gui-select-style: "S\xe9lectionnez le style"
+gui-select-style-description: "Mets le style de la particule \xe0 &b%style%"
+gui-select-data: "S\xe9lectionnez les param\xe8tres"
+gui-select-data-description: "Mets les param\xe8tres de la particule \xe0 &b%data%"
+gui-select-data-note: 'Note #%note%'
+gui-select-data-color-transition-start: "&eS\xe9lectionnez la couleur de &bd\xe9part"
+gui-select-data-color-transition-end: "&eS\xe9lectionnez la couleur de &bfin"
+gui-select-data-vibration: '&b%ticks% &eticks'
+
+# GUI Color Name Messages
+gui-edit-data-color-red: '#ff0000Rouge'
+gui-edit-data-color-orange: '#ff8c00Orange'
+gui-edit-data-color-yellow: '#ffff00Jaune'
+gui-edit-data-color-lime-green: '#32cd32Vert Citron'
+gui-edit-data-color-green: '#008000Vert'
+gui-edit-data-color-blue: '#0000ffBleu'
+gui-edit-data-color-cyan: '#008b8bCyan'
+gui-edit-data-color-light-blue: '#add8e6Bleu Clair'
+gui-edit-data-color-purple: '#8a2be2Mauve'
+gui-edit-data-color-magenta: '#ca1f7bMagenta'
+gui-edit-data-color-pink: '#ffb6c1Rose'
+gui-edit-data-color-brown: '#8b4513Brun'
+gui-edit-data-color-black: '#000000Noir'
+gui-edit-data-color-gray: '#808080Gris'
+gui-edit-data-color-light-gray: '#c0c0c0Gris Clair'
+gui-edit-data-color-white: '#ffffffBlanc'

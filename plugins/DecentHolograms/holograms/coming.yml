@@ -1,0 +1,14 @@
+location: mia:69.494:100.000:91.511
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Currently Gamemodes are &c&lComming Soon&f.
+    height: 0.9
+  - content: '&b#Wait&f.'
+    height: 0.3
+  actions: {}

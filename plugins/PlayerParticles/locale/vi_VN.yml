@@ -1,0 +1,337 @@
+# vi_VN translation by DUYSONGLOI
+# Plugin Message Prefix
+prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
+
+# Command Description Messages
+command-error-missing-effects-or-styles: "&cB\u1ea1n ph\u1ea3i c\xf3 quy\u1ec1n truy c\u1eadp v\xe0o c\xe1c hi\u1ec7u \u1ee9ng v\xe0 phong c\xe1ch \u0111\u1ec3 s\u1eed d\u1ee5ng l\u1ec7nh n\xe0y!"
+command-error-unknown: "&cL\u1ec7nh kh\xf4ng \u0111\xfang, &6/pp help &c\u0111\u1ec3 xem danh s\xe1ch c\xe1c c\xe2u l\u1ec7nh."
+command-descriptions: "&eC\xe1c l\u1ec7nh c\xf3 s\u1eb5n:"
+command-descriptions-usage: '&e/pp %cmd% %args%'
+command-descriptions-help-1: '&7> &b/pp %cmd% &e- %desc%'
+command-descriptions-help-2: '&7> &b/pp %cmd% %args% &e- %desc%'
+command-descriptions-help-other: "&7> &b/ppo <player> <command> &e- Ch\u1ea1y l\u1ec7nh /pp b\u1eb1ng player"
+command-description-add: "Th\xeam m\u1ed9t hi\u1ec7u \u1ee9ng m\u1edbi"
+command-description-data: "Ki\u1ec3m tra lao\u1ecb d\u1eef li\u1ec7u m\xe0 hi\u1ec7u \u1ee9ng s\u1eed d\u1ee5ng"
+command-description-default: "\u0110\xe3 m\u1edf GUI hi\u1ec7u \u1ee9ng"
+command-description-edit: "Ch\u1ec9nh s\u1eeda m\u1ed9t hi\u1ec7u \u1ee9ng"
+command-description-effects: "Hi\u1ec3n th\u1ecb danh s\xe1ch hi\u1ec7u \u1ee9ng m\xe0 b\u1ea1n c\xf3 th\u1ec3 s\u1eed d\u1ee5ng"
+command-description-fixed: "Qu\u1ea3n l\xed hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh c\u1ee7a b\u1ea1n"
+command-description-group: "Qu\u1ea3n l\xed Group c\u1ee7a b\u1ea1n"
+command-description-gui: "Hi\u1ec3n th\u1ecb GUI \u0111\u1ec3 d\u1ec5 d\xe0ng ch\u1ec9nh s\u1eeda hi\u1ec7u \u1ee9ng h\u01a1n"
+command-description-help: "\u0110ang hi\u1ec3n th\u1ecb Help Menu..."
+command-description-info: "Nh\u1eadn m\xf4 t\u1ea3 v\u1ec1 hi\u1ec7u \u1ee9ng \u0111ang ho\u1ea1t \u0111\u1ed9ng c\u1ee7a b\u1ea1n"
+command-description-list: "Danh s\xe1ch IDs c\xe1c hi\u1ec7u \u1ee9ng \u0111ang ho\u1ea1t \u0111\u1ed9ng c\u1ee7a b\u1ea1n"
+command-description-reload: "T\u1ea3i l\u1ea1i config v\xe0 lang file"
+command-description-remove: "X\xf3a m\u1ed9t v\xe0i hi\u1ec7u \u1ee9ng"
+command-description-reset: "X\xf3a t\u1ea5t c\u1ea3 hi\u1ec7u \u1ee9ng \u0111ang ho\u1ea1t \u0111\u1ed9ng c\u1ee7a b\u1ea1n"
+command-description-styles: "Hi\u1ec3n th\u1ecb danh s\xe1ch Style b\u1ea1n c\xf3 th\u1ec3 s\u1eed d\u1ee5ng"
+command-description-toggle: "B\u1eadt/T\u1eaft t\xe0ng h\xecnh hi\u1ec7u \u1ee9ng"
+command-description-use: "S\u1eeda \u0111\u1ed5i h\u1ea1t ch\xednh c\u1ee7a b\u1ea1n"
+command-description-version: "Hi\u1ec3n th\u1ecb phi\xean b\u1ea3n v\xe0 t\xe1c gi\u1ea3 c\u1ee7a plugins"
+command-description-worlds: "Hi\u1ec3n th\u1ecb danh s\xe1ch th\u1ebf gi\u1edbi b\u1ecb c\u1ea5m hi\u1ec7u \u1ee9ng"
+
+# Fixed Particle Command Description Messages
+command-description-fixed-create: "&e/pp fixed create <<x> <y> <z>|<looking>> <effect> <style> [data] - T\u1ea1o m\u1edbi m\u1ed9t hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh"
+command-description-fixed-create-console: "&e/pp fixed create <x> <y> <z> <world> <effect> <style> [data] - T\u1ea1o m\u1edbi m\u1ed9t hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh"
+command-description-fixed-edit: "&e/pp fixed edit <id> <effect|style|data|location> <args> - Ch\u1ec9nh s\u1eeda hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh b\u1eb1ng IDs c\u1ee7a n\xf3"
+command-description-fixed-remove: "&e/pp fixed remove <id> - X\xf3a hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh"
+command-description-fixed-list: "&e/pp fixed list - Danh s\xe1ch c\xe1c hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh d\u01b0\u1edbi d\u1ea1ng IDs"
+command-description-fixed-info: "&e/pp fixed info <id> - Hi\u1ec3n th\u1ecb th\xf4ng tin v\u1ec1 hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh"
+command-description-fixed-clear: "&e/pp fixed clear <radius> - X\xf3a to\xe0n b\u1ed9 hi\u1ec7u \u1ee9ng trong khu v\u1ef1c b\xe1n k\xednh"
+command-description-fixed-clear-console: "&e/pp fixed clear <radius> <x> <y> <z> <world> - X\xf3a to\xe0n b\u1ed9 hi\u1ec7u \u1ee9ng trong khu v\u1ef1c b\xe1n k\xednh"
+command-description-fixed-teleport: "&e/pp fixed teleport <id> - D\u1ecbch chuy\u1ec3n b\u1ea1n \u0111\u1ebfn m\u1ed9t trong nh\u1eefng hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh c\u1ee7a b\u1ea1n"
+
+# Group Command Description Messages
+command-description-group-save: "&e/pp group save <name> - L\u01b0u to\xe0n b\u1ed9 hi\xeau \u1ee9ng ho\u1ea1t \u0111\u1ed9ng v\xe0o Group m\u1edbi"
+command-description-group-load: "&e/pp group load <name> - Load to\xe0n b\u1ed9 hi\u1ec7u \u1ee9ng ho\u1ea1t \u0111\u1ed9ng trong group"
+command-description-group-remove: "&e/pp group remove <name> - X\xf3a m\u1ed9t group b\u1ea1n \u0111\xe3 l\u01b0u"
+command-description-group-list: "&e/pp group list <name> - Hi\u1ec3n th\u1ecb danh s\xe1ch Group hi\u1ec7u \u1ee9ng b\u1ea1n \u0111\xe3 l\u01b0u"
+command-description-group-info: "&e/pp group info <name> - Hi\u1ec3n th\u1ecb danh s\xe1ch hi\u1ec7u \u1ee9ng b\u1ea1n \u0111ang l\u01b0u trong group"
+
+# ID Messages
+id-invalid: "&cID b\u1ea1n nh\u1eadp kh\xf4ng t\u1ed3n t\u1ea1i, n\xf3 ph\u1ea3i l\xe0 m\u1ed9t s\u1ed1 nguy\xean d\u01b0\u01a1ng!"
+id-unknown: "&cB\u1ea1n kh\xf4ng c\xf3 hi\u1ec7u \u1ee9ng n\xe0o \u0111\u01b0\u1ee3c \xe1p d\u1ee5ng v\u1edbi ID &b%id%&c!"
+
+# Other Messages
+other-no-permission: "&cb\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 thi h\xe0nh l\u1ec7nh c\u1ee7a plugins cho ng\u01b0\u1eddi ch\u01a1i kh\xe1c!"
+other-missing-args: "&cB\u1ea1n \u0111\xe3 qu\xean m\u1ed9t v\xe0i \u0111\u1ed1i s\u1ed1. &b/ppo <player> <command>"
+other-unknown-player: "&cKh\xf4ng th\u1ec3 t\xecm th\u1ea5y ng\u01b0\u1eddi ch\u01a1i &b%player% &c. Ng\u01b0\u1eddi ch\u01a1i \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh ph\u1ea3i Online."
+other-unknown-command: "&cL\u1ec7nh &b/pp %cmd% &ckh\xf4ng t\u1ed3n t\u1ea1i."
+other-success: "&eThi h\xe0nh l\u1ec7nh /pp command cho &b%player%&e. Output:"
+
+# Add Messages
+add-reached-max: "&Kh\xf4ng th\u1ec3 \xe1p d\u1ee5ng hi\u1ec7u \u1ee9ng, B\u1ea1n \u0111\xe3 \u0111\u1ea1t t\u1edbi s\u1ed1 l\u01b0\u1ee3ng gi\u1edbi h\u1ea1n c\u1ee7a&b%amount% &c\u0111\u01b0\u1ee3c cho ph\xe9p!"
+add-particle-applied: "&aH\u1ea1t (Particle) m\u1edbi \u0111\xe3 \u0111\u01b0\u1ee3c \xe1p d\u1ee5ng v\u1edbi effect &b%effect%&a, style &b%style%&a, v\xe0 data &b%data%&a!"
+data-no-args: "&c\u0110\xe3 qu\xean m\u1ed9t \u0111\u1ed1i s\u1ed1 cho effect! L\u1ec7nh \u0111\xfang: &b/pp data <effect>"
+
+# Edit Messages
+edit-invalid-property: "&cM\u1ed9t property kh\xf4ng h\u1ee3p l\u1ec7 &b%prop% &cw\u0111\xe3 \u0111\u01b0\u1ee3c cung c\u1ea5p. properties h\u1ee3p l\u1ec7: &beffect&c, &bstyle&c, &bdata"
+edit-success-effect: "&aH\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n v\u1edbi ID &b%id% &a\u0111\xe3 thanh \u0111\u1ed5i Hi\u1ec7u \u1ee9ng th\xe0nh &b%effect%&a!"
+edit-success-style: "&aH\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n v\u1edbi ID &b%id% &a\u0111\xe3 thanh \u0111\u1ed5i Ki\u1ec3u hi\u1ec7u \u1ee9ng th\xe0nh &b%style%&a!"
+edit-success-data: "&aH\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n v\u1edbi ID &b%id% &a\u0111\xe3 thanh \u0111\u1ed5i D\u1eef li\u1ec7u th\xe0nh &b%data%&a!"
+
+# Group Messages
+group-invalid: "&cM\u1ed9t Group \u0111\xe3 l\u01b0u ho\u1eb7c Preset Group kh\xf4ng \u0111\u01b0\u1ee3c t\xecm th\u1ea5y v\u1edbi t\xean &b%name%&c!"
+group-no-permission: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n for 1 effect, style \u0111\u1ec3 s\u1eed d\u1ee5ng nh\xf3m s\u1eb5n &b%group%&c!"
+group-preset-no-permission: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n for 1 effect, style \u0111\u1ec3 s\u1eed d\u1ee5ng nh\xf3m c\xe0i s\u1eb5n &b%group%&c!"
+group-reserved: "&cGroup t\xean &bactive &ckh\xf4ng th\u1ec3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng!"
+group-no-name: "&cB\u1ea1n \u0111\xe3 kh\xf4ng cung c\u1ea5p t\xean group! &b/pp %cmd% <groupName>"
+group-save-reached-max: "&cKh\xf4ng th\u1ec3 l\u01b0u Group , b\u1ea1n \u0111\xe3 \u0111\u1ea1t gi\u1edbi h\u1ea1n s\u1ed1 l\u01b0\u1ee3ng group c\xf3 th\u1ec3 t\u1ea1o!"
+group-save-no-particles: "&cKh\xf4ng th\u1ec3 l\u01b0u group, b\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\xec *h\u1ea1t \u0111\u01b0\u1ee3c \u0111\u01b0\u1ee3c \xe1p d\u1ee5ng n\xe0o!"
+group-save-success: "&aH\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n \u0111\xe3 \u0111\u01b0\u1ee3c l\u01b0u d\u01b0\u1edbi t\xean c\u1ee7a group &b%name%&a!"
+group-save-success-overwrite: "&aGroup t\xean&b%name% &a\u0111\xe3 \u0111\u01b0\u1ee3c c\u1eadp nh\u1eadt v\u1edbi h\u1ea1t hi\u1ec7u \u1ee9ng hi\u1ec7n t\u1ea1i c\u1ee7a b\u1ea1n!"
+group-load-success: "&a\u0110\xe3 \xe1p d\u1ee5ng &b%amount% &ah\u1ea1t hi\u1ec7u \u1ee9ng t\u1eeb group \u0111\u01b0\u1ee3c l\u01b0u v\u1edbi t\xean &b%name%&a!"
+group-load-preset-success: "&a\u0110\xe3 \xe1p d\u1ee5ng &b%amount% &ah\u1ea1t hi\u1ec7u \u1ee9ng t\u1ef1 presen group v\u1edbi t\xean &b%name%&a!"
+group-unload-success: "&a\u0110\xe3 lo\u1ea1i b\u1ecf c\xe1c ph\u1ea7n t\u1eed &b%amount% &aph\xf9 h\u1ee3p v\u1edbi nh\xf3m &b%name%&a!"
+group-remove-preset: "&cB\u1ea1n kh\xf4ng th\u1ec3 x\xf3a m\u1ed9t preset group!"
+group-remove-success: "&a\u0110\xe3 x\xf3a m\u1ed9t Nh\xf3m h\u1ea1t hi\u1ec7u \u1ee9ng v\u1edbi t\xean &b%name%&a!"
+group-info-header: "&eGroup &b%group% &e\u0111ang c\xf3 nh\u1eefng h\u1ea1t hi\u1ec7u \u1ee9ng sau:"
+group-list-none: "&eB\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\xec nh\xf3m h\u1ea1t hi\u1ec7u\u1ee9ng n\xe0o \u0111\u01b0\u1ee3c l\u01b0u!"
+group-list-output: "&eB\u1ea1n \u0111\xe3 l\u01b0u c\xe1c Group sau: &b%info%"
+group-list-presets: "&eC\xe1c preset group c\xf3 s\u1eb5n: &b%info%"
+
+# Reload Messages
+reload-success: "&a\u0110\xe3 t\u1ea3i l\u1ea1i plugins!"
+reload-no-permission: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 t\u1ea3i l\u1ea1i plugins!"
+
+# Remove Messages
+remove-no-args: "&cB\u1ea1n kh\xf4ng ch\u1ec9 \u0111\u1ecbnh IDs \u0111\u1ec3 x\xf3a! &b/pp remove <ID>"
+remove-id-success: "&aH\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1 v\u1edbi IDs &b%id% &a\u0111\xe3 b\u1ecb x\xf3a!"
+remove-effect-success: "&a\u0110\xe3 x\xf3a &b%amount% &ah\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n v\u1edbi hi\u1ec7u \u1ee9ng &b%effect%&a!"
+remove-effect-none: "&cB\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\xec H\u1ea1t hi\u1ec7u \u1ee9ng n\xe0o \u0111\u1ec3 \xe1p d\u1ee5ng hi\u1ec7u \u1ee9ng &b%effect%&c!"
+remove-style-success: "&a\u0110\xe3 x\xf3a &b%amount% &aH\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n v\u1edbi style &b%style%&a!"
+remove-style-none: "&cB\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\xec H\u1ea1t hi\u1ec7u \u1ee9ng n\xe0o \u0111\u1ec3 \xe1p d\u1ee5ng style &b%style%&c!"
+remove-effect-style-none: "&cB\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\u1ef3 h\u1ea1t n\xe0o \u0111\u01b0\u1ee3c \xe1p d\u1ee5ng v\u1edbi hi\u1ec7u \u1ee9ng ho\u1eb7c ki\u1ec3u %name%&c!"
+remove-unknown: "&cEffect ho\u1eb7c Style v\u1edbi t\xean &b%name% &ckh\xf4ng t\u1ed3n t\u1ea1i!"
+
+# List Messages
+list-none: "&eB\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\xec H\u1ea1t hi\u1ec7u \u1ee9ng ho\u1ea1t \u0111\u1ed9ng n\xe0o!"
+list-you-have: "&eC\xe1c h\u1ea1t hi\u1ec7u \u1ee9ng b\u1ea1n \u0111\xe3 \xe1p d\u1ee5ng:"
+list-output: '&eID: &b%id% &eEffect: &b%effect% &eStyle: &b%style% &eData: &b%data%'
+
+# Toggle Messages
+toggle-on: "&eH\u1ea1t hi\u1ec7u \u1ee9ng : &aON&e!"
+toggle-off: "&eH\u1ea1t hi\u1ec7u \u1ee9ng : &cOFF&e!"
+
+# Use Messages
+use-particle-modified: "&aH\u1ea1t ch\xednh c\u1ee7a b\u1ea1n \u0111\xe3 \u0111\u01b0\u1ee3c s\u1eeda \u0111\u1ed5i \u0111\u1ec3 s\u1eed d\u1ee5ng hi\u1ec7u \u1ee9ng &b%effect%&a, style &b%style%&a, v\xe0 data &b%data%&a!"
+
+# Color Messages
+rainbow: '&cR&6a&ei&an&bb&9o&dw'
+random: "Ng\u1eabu nhi\xean"
+
+# Effect Messages
+effect-no-permission: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 s\u1eed d\u1ee5ng Hi\u1ec7u \u1ee9ng &b%effect% &c!"
+effect-invalid: "&cHi\u1ec7u \u1ee9ng &b%effect% &ckh\xf4ng t\u1ed3n t\u1ea1i! S\u1eed d\u1ee5ng &b/pp effects &c\u0111\u1ec3 hi\u1ec3n th\u1ecb danh s\xe1ch hi\u1ec7u \u1ee9ng b\u1ea1n c\xf3 th\u1ec3 d\xf9ng."
+effect-list: "&eB\u1ea1n c\xf3 th\u1ec3 s\u1eed d\u1ee5ng c\xe1c hi\u1ec7u \u1ee9ng sau: &b%effects%"
+effect-list-empty: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 s\u1eed d\u1ee5ng b\u1ea5t k\xec hi\u1ec7u \u1ee9ng n\xe0o!"
+
+# Style Messages
+style-no-permission: "&cb\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 s\u1eed d\u1ee5ng Ki\u1ec3u hi\u1ec7u \u1ee9ng &b%style% &c!"
+style-event-spawning-info: "&eNh\u1eafc nh\u1edf: Ki\u1ec3u hi\u1ec7u \u1ee9ng &b%style% &esinh ra d\u1ef1a tr\xean s\u1ef1 ki\u1ec7n nh\u1ea5t \u0111\u1ecbnh \u0111\u01b0\u1ee3c x\u1ea3y ra."
+style-invalid: "&cKi\u1ec3u hi\u1ec7u \u1ee9ng &b%style% &ckh\xf4ng t\u1ed3n t\u1ea1i! Use &b/pp styles &c\u0111\u1ec3 hi\u1ec3n th\u1ecb danh s\xe1ch Ki\u1ec3u hi\u1ec7u \u1ee9ng b\u1ea1n c\xf3 th\u1ec3 d\xf9ng."
+style-list: "&eB\u1ea1n c\xf3 th\u1ec3 s\u1eed d\u1ee5ng c\xe1c Ki\u1ec3u hi\u1ec7u \u1ee9ng sau: &b%styles%"
+
+# Data Messages
+data-usage-none: "&eHi\u1ec7u \u1ee9ng &b%effect% &ekh\xf4ng s\u1eed d\u1ee5ng b\u1ea5t k\xec D\u1eef li\u1ec7u n\xe0o!"
+data-usage-block: "&eHi\u1ec7u \u1ee9ng &b%effect% &ey\xeau c\u1ea7u d\u1eef li\u1ec7u &bblock ! &b\u0110\u1ecbnh d\u1ea1ng: <blockName>"
+data-usage-item: "&eHi\u1ec7u \u1ee9ng &b%effect% &ey\xeau c\u1ea7u d\u1eef li\u1ec7u &bitem! &b\u0110\u1ecbnh d\u1ea1ng: <itemName>"
+data-usage-color: "&eHi\u1ec7u \u1ee9ng &b%effect% &ey\xeau c\u1ea7u d\u1eef li\u1ec7u &bcolor! &b\u0110\u1ecbnh d\u1ea1ng: <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-usage-note: "&eHi\u1ec7u \u1ee9ng &b%effect% &ey\xeau c\u1ea7u d\u1eef li\u1ec7u &bnote! &b\u0110\u1ecbnh d\u1ea1ng: <0-24>|<&brainbow>|<random>"
+data-usage-color-transition: "&eHi\u1ec7u \u1ee9ng &b%effect% &ey\xeau c\u1ea7u d\u1eef li\u1ec7u &bcolor transition! &b\u0110\u1ecbnh d\u1ea1ng: &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random> <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-usage-vibration: "&eHi\u1ec7u \u1ee9ng &b%effect% &ey\xeau c\u1ea7u d\u1eef li\u1ec7u &bvibration! &b\u0110\u1ecbnh d\u1ea1ng: <duration>"
+data-invalid-block: "&cD\u1eef li\u1ec7u &bblock &cb\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng h\u1ee3p l\u1ec7! &b\u0110\u1ecbnh d\u1ea1ng: <blockName>"
+data-invalid-item: "&cD\u1eef li\u1ec7u &bitem &cb\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng h\u1ee3p l\u1ec7! &b\u0110\u1ecbnh d\u1ea1ng: <itemName>"
+data-invalid-color: "&cD\u1eef li\u1ec7u &bcolor &cb\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng h\u1ee3p l\u1ec7! &b\u0110\u1ecbnh d\u1ea1ng: <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-invalid-note: "&cD\u1eef li\u1ec7u &bnote &cb\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng h\u1ee3p l\u1ec7! &b\u0110\u1ecbnh d\u1ea1ng: <0-24>|<&brainbow>|<random>"
+data-invalid-color-transition: "&cD\u1eef li\u1ec7u &bcolor transition &cb\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng h\u1ee3p l\u1ec7! &b\u0110\u1ecbnh d\u1ea1ng: <<0-255> <0-255> <0-255>>|<&brainbow>|<random> <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-invalid-vibration: "&cD\u1eef li\u1ec7u &bvibration &cb\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng h\u1ee3p l\u1ec7! &b\u0110\u1ecbnh d\u1ea1ng: <duration>"
+data-invalid-material-not-item: "&cD\u1eef li\u1ec7u &bitem &c: V\u1eadt ph\u1ea9m &b%material% &cb\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng ph\u1ea3i l\xe0 m\u1ed9t v\u1eadt ph\u1ea9m!"
+data-invalid-material-not-block: "&cD\u1eef li\u1ec7u &bblock &c: V\u1eadt ph\u1ea9m &b%material% &cb\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng ph\u1ea3i l\xe0 m\u1ed9t kh\u1ed1i!"
+data-invalid-material-item: "&cD\u1eef li\u1ec7u &bitem &c: V\u1eadt ph\u1ea9m &b%material% b\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng t\u1ed3n t\u1ea1i!"
+data-invalid-material-block: "&cD\u1eef li\u1ec7u &bblock &c: V\u1eadt ph\u1ea9m &b%material% b\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng t\u1ed3n t\u1ea1i!"
+
+# World Messages
+disabled-worlds: "&eC\xe1c H\u1ea1t hi\u1ec7u \u1ee9ng b\u1ecb c\u1ea5m t\u1ea1i th\u1ebf gi\u1edbi n\xe0y: &b%worlds%"
+disabled-worlds-none: "&eKh\xf4ng c\xf3 th\u1ec3 gi\u1edbi n\xe0o c\u1ea5m H\u1ea1t hi\u1ec7u \u1ee9ng."
+
+# Reset Message
+reset-success: "&a\u0110\xe3 x\xf3a &b%amount% &aH\u1ea1t hi\u1ec7u \u1ee9ng ho\u1ea1t \u0111\u1ed9ng!"
+reset-others-success: "&aC\xe1c h\u1ea1t b\u1ecb lo\u1ea1i b\u1ecf cho &b%other%&a!"
+reset-others-none: "&eKh\xf4ng c\xf3 h\u1ea1t n\xe0o \u0111\u01b0\u1ee3c lo\u1ea1i b\u1ecf cho &b%other%&e."
+
+# Fixed Create Messages
+fixed-create-missing-args: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n \u0111\xe3 qu\xean &b%amount% &c\u0111\u1ed1i s\u1ed1 y\xeau c\u1ea7u!"
+fixed-create-invalid-coords: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, m\u1ed9t ho\u1eb7c nhi\u1ec1u t\u1ecda \u0111\u1ed9 b\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng h\u1ee3p l\u1ec7!"
+fixed-create-out-of-range: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n ph\u1ea3i \u1edf trong b\xe1n k\xednh &b%range% &ckh\u1ed1i t\u1ea1i v\u1ecb tr\xed mong mu\u1ed1n c\u1ee7a b\u1ea1n!"
+fixed-create-looking-too-far: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n \u0111ang \u0111\u1ee9ng qu\xe1 xa kh\u1ed1i b\u1ea1n nh\xecn!"
+fixed-create-effect-invalid: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, Hi\u1ec7u \u1ee9ng v\u1edbi t\xean &b%effect% &ckh\xf4ng t\u1ed3n t\u1ea1i!"
+fixed-create-effect-no-permission: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 s\u1eed d\u1ee5ng Hi\u1ec7u \u1ee9ng &b%effect%&c!"
+fixed-create-style-invalid: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, Ki\u1ec3u hi\u1ec7u \u1ee9ng v\u1edbi t\xean &b%style% &ckh\xf4ng t\u1ed3n t\u1ea1i!"
+fixed-create-style-no-permission: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 s\u1eed d\u1ee5ng Ki\u1ec3u hi\u1ec7u \u1ee9ng &b%style%&c!"
+fixed-create-style-non-fixable: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, Ki\u1ec3u hi\u1ec7u \u1ee9ng &b%style% &ckh\xf4ng th\u1ec3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh!"
+fixed-create-data-error: "&cKh\xf4ng th\u1ec3 t\u1ea1o Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, D\u1eef li\u1ec7u b\u1ea1n \u0111\xe3 cung c\u1ea5p kh\xf4ng \u0111\xfang! S\u1eed d\u1ee5ng &b/pp data <effect> &c\u0111\u1ec3 xem \u0111\u1ecbnh d\u1ea1ng d\u1eef li\u1ec7u \u0111\xfang!"
+fixed-create-success: "&aHi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh c\u1ee7a b\u1ea1n \u0111\xe3 \u0111\u01b0\u1ee3c t\u1ea1o!"
+
+# Fixed Edit Messages
+fixed-edit-missing-args: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n ch\u01b0a nh\u1eadp m\u1ed9t v\xe0i \u0111\u1ed1i s\u1ed1!"
+fixed-edit-invalid-id: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, IDs b\u1ea1n ch\u1ec9 \u0111\u1ecbnh kh\xf4ng h\u1ee3p l\u1ec7 ho\u1eb7c kh\xf4ng t\u1ed3n t\u1ea1i!"
+fixed-edit-invalid-property: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, m\u1ed9t property kh\xf4ng h\u1ee3p l\u1ec7 \u0111\xe3 \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh! Ch\u1ec9 c\xf3 &blocation&c, &beffect&c, &bstyle&c, v\xe0 &bdata &l\xe0 h\u1ee3p l\u1ec7."
+fixed-edit-invalid-coords: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, m\u1ed9t ho\u1eb7c nhi\u1ec1u t\u1ecda \u0111\u1ed9 b\u1ea1n \u0111\xe3 nh\u1eadp kh\xf4ng h\u1ee3p l\u1ec7!"
+fixed-edit-out-of-range: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, B\u1ea1n ph\u1ea3i \u1edf trong b\xe1n k\xednh &b%range% &ckh\u1ed1i t\u1ea1i v\u1ecb tr\xed mong mu\u1ed1n c\u1ee7a b\u1ea1n!"
+fixed-edit-looking-too-far: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, B\u1ea1n \u0111ang \u0111\u1ee9ng qu\xe1 xa so v\u1edbi kh\u1ed1i b\u1ea1n nh\xecn!"
+fixed-edit-effect-invalid: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, m\u1ed9t Hi\u1ec7u \u1ee9ng v\u1edbi t\xean &b%effect% &ckh\xf4ng t\u1ed3n t\u1ea1i!"
+fixed-edit-effect-no-permission: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 s\u1eed d\u1ee5ng hi\u1ec7u \u1ee9ng &b%effect%&c!"
+fixed-edit-style-invalid: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, Ki\u1ec3u hi\u1ec7u \u1ee9ng &b%style% &ckh\xf4ng t\u1ed3n t\u1ea1i!"
+fixed-edit-style-no-permission: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 s\u1eed d\u1ee5ng ki\u1ec3u hi\u1ec7u \u1ee9ng &b%style%&c!"
+fixed-edit-style-non-fixable: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, Ki\u1ec3u hi\u1ec7u \u1ee9ng &b%style% &ckh\xf4ng th\u1ec3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh!"
+fixed-edit-data-error: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, D\u1eef li\u1ec7u b\u1ea1n \u0111\xe3 cung c\u1ea5p kh\xf4ng \u0111\xfang! S\u1eed d\u1ee5ng &b/pp data <effect> &c\u0111\u1ec3 xem \u0111\u1ecbnh d\u1ea1ng d\u1eef li\u1ec7u \u0111\xfang!"
+fixed-edit-data-none: "&cKh\xf4ng th\u1ec3 \u0111i\u1ec1u ch\u1ec9nh Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, Hi\u1ec7u \u1ee9ng kh\xf4ng y\xeau c\u1ea7u b\u1ea5t c\u1ee9 D\u1eef li\u1ec7u n\xe0o!"
+fixed-edit-success: "&a\u0110\xe3 c\u1eadp nh\u1eadt &b%prop% &ac\u1ee7a Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh v\u1edbi m\u1ed9t ID c\u1ee7a &b%id%&a!"
+
+# Fixed Remove Messages
+fixed-remove-invalid: "&cKh\xf4ng th\u1ec3 x\xf3a Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, b\u1ea1n kh\xf4ng c\xf3 hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh n\xe0o v\u1edbi ID &b%id%&c!"
+fixed-remove-no-args: "&cb\u1ea1n kh\xf4ng ch\u1ec9 \u0111\u1ecbnh ID \u0111\u1ec3 x\xf3a!"
+fixed-remove-args-invalid: "&cKh\xf4ng th\u1ec3 x\xf3a, ID \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh ph\u1ea3i l\xe0 s\u1ed1"
+fixed-remove-success: "&aHi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh c\u1ee7a b\u1ea1n v\u1edbi ID &b%id% &a\u0111\xe3 b\u1ecb x\xf3a!"
+
+# Fixed List Messages
+fixed-list-none: "&eB\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\xec Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh n\xe0o!"
+fixed-list-success: "&eB\u1ea1n c\xf3 c\xe1c Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh v\u1edbi IDs: &b%ids%"
+
+# Fixed Info Messages
+fixed-info-invalid: "&cKh\xf4ng th\u1ec3 l\u1ea5y th\xf4ng tin, b\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\xec Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh n\xe0o v\u1edbi ID &b%id%&c!"
+fixed-info-no-args: "&cB\u1ea1n kh\xf4ng ch\u1ec9 \u0111\u1ecbnh ID \u0111\u1ec3 hi\u1ec3n th\u1ecb th\xf4ng tin Hi\u1ec7u \u1ee9ng c\xf3 \u0111\u1ecbnh!"
+fixed-info-invalid-args: "&cKh\xf4ng th\u1ec3 hi\u1ec3n th\u1ecb Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh, ID \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh ph\u1ea3i l\xe0 m\u1ed9t con s\u1ed1!"
+fixed-info-success: '&eID: &b%id% &eWorld: &b%world% &eX: &b%x% &eY: &b%y% &eZ: &b%z% &eEffect: &b%effect% &eStyle: &b%style% &eData: &b%data%'
+
+# Fixed Clear Messages
+fixed-clear-no-permission: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 l\xe0m \u0111i\u1ec1u n\xe0y!"
+fixed-clear-no-args: "&cB\u1ea1n kh\xf4ng cung c\u1ea5p b\xe1n k\xednh \u0111\u1ec3 x\xf3a c\xe1c Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh!"
+fixed-clear-invalid-args: "&cb\xe1n k\xednh \u0111\u01b0\u1ee3c cung c\u1ea5p kh\xf4ng h\u1ee3p l\u1ec7, n\xf3 ph\u1ea3i l\xe0 m\u1ed9t s\u1ed1 nguy\xean d\u01b0\u01a1ng!"
+fixed-clear-success: "&a\u0110\xe3 x\xf3a &b%amount% &aHi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh trong b\xe1n k\xednh &b%range% &akh\u1ed1i t\u1eeb v\u1ecb tr\xed c\u1ee7a b\u1ea1n!"
+
+# Fixed Teleport Message
+fixed-teleport-no-permission: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n d\u1ecbch chuy\u1ec3n t\u1ee9c th\u1eddi \u0111\u1ebfn c\xe1c hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh!"
+fixed-teleport-no-args: "&cB\u1ea1n \u0111\xe3 kh\xf4ng ch\u1ec9 \u0111\u1ecbnh m\u1ed9t ID \u0111\u1ec3 d\u1ecbch chuy\u1ec3n \u0111\u1ebfn!"
+fixed-teleport-invalid-args: "&cKh\xf4ng th\u1ec3 d\u1ecbch chuy\u1ec3n t\u1ee9c th\u1eddi, ID \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh kh\xf4ng h\u1ee3p l\u1ec7!"
+fixed-teleport-success: "&e\u0110\u01b0\u1ee3c d\u1ecbch chuy\u1ec3n \u0111\u1ebfn hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh c\u1ee7a b\u1ea1n v\u1edbi ID &b%id%&e!"
+
+# Fixed Other Messages
+fixed-no-permission: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n \u0111\u1ec3 l\xe0m \u0111i\u1ec1u n\xe0y!"
+fixed-max-reached: "&cB\u1ea1n \u0111\xe3 \u0111\u1ea1t t\u1edbi gi\u1edbi h\u1ea1n s\u1ed1 Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh c\xf3 th\u1ec3 s\u1eed d\u1ee5ng!"
+fixed-invalid-command: "&cL\u1ec7nh ph\u1ee5 kh\xf4ng h\u1ee3p l\u1ec7, &b/pp fixed&c!"
+
+# Plugin Update Message
+update-available: "&e\u0110\xe3 c\xf3 b\u1ea3n c\u1eadp nh\u1eadt (&bv%new%&e)! b\u1ea1n \u0111ang s\u1eed d\u1ee5ng &bv%current%&e. https://www.spigotmc.org/resources/playerparticles.40261/"
+
+# GUI Messages
+gui-disabled: "&cAmdinistrator \u0111\xe3 c\u1ea5m GUI!"
+gui-no-permission: "&cB\u1ea1n kh\xf4ng c\xf3 quy\u1ec1n m\u1edf GUI!"
+
+# GUI Color Messages
+gui-color-icon-name: '&a'
+gui-color-info: '&e'
+gui-color-subtext: '&b'
+gui-color-unavailable: '&c'
+
+# GUI Info Messages
+gui-commands-info: "Hi\u1ec3n th\u1ecb th\xeam c\xe1c l\u1ec7nh b\u1eb1ng c\xe1ch g\xf5 &b/pp help"
+gui-toggle-visibility-on: "C\xe1c h\u1ea1t hi\u1ec7n c\xf3 th\u1ec3 nh\xecn th\u1ea5y \u0111\u01b0\u1ee3c"
+gui-toggle-visibility-off: "C\xe1c h\u1ea1t hi\u1ec7n \u0111ang b\u1ecb \u1ea9n"
+gui-toggle-visibility-info: "Nh\u1ea5p \u0111\u1ec3 chuy\u1ec3n \u0111\u1ed5i ch\u1ebf \u0111\u1ed9 hi\u1ec3n th\u1ecb h\u1ea1t"
+gui-back-button: "Quay tr\u1edf v\u1ec1"
+gui-next-page-button: "Trang ti\u1ebfp theo (%start%/%end%)"
+gui-previous-page-button: "Trang tr\u01b0\u1edbc (%start%/%end%)"
+gui-click-to-load: "Nh\u1ea5n \u0111\u1ec3 t\u1ea3i %amount% H\u1ea1t hi\u1ec7u \u1ee9ng sau:"
+gui-shift-click-to-delete: "Shift Click \u0111\u1ec3 x\xf3a"
+gui-particle-info: '  - ID: &b%id% &eEffect: &b%effect% &eStyle: &b%style% &eData: &b%data%'
+gui-playerparticles: "HI\u1ec6U \u1ee8NG"
+gui-active-particles: "H\u1ea1t hi\u1ec7u \u1ee9ng \u0111ang ho\u1ea1t \u0111\u1ed9ng: &b%amount%"
+gui-saved-groups: "Groups \u0111\xe3 l\u01b0u: &b%amount%"
+gui-fixed-effects: "Hi\u1ec7u \u1ee9ng c\u1ed1 \u0111\u1ecbnh: &b%amount%"
+
+# GUI Edit Primary Messages
+gui-edit-primary-effect: "Ch\u1ec9nh s\u1eeda hi\u1ec7u \u1ee9ng ch\xednh (primary effect)"
+gui-edit-primary-effect-description: "Ch\u1ec9nh s\u1eeda Hi\u1ec7u \u1ee9ng H\u1ea1t hi\u1ec7u \u1ee9ng ch\xednh c\u1ee7a b\u1ea1n"
+gui-edit-primary-style: "Ch\u1ec9nh s\u1eeda Ki\u1ec3u hi\u1ec7u \u1ee9ng ch\xednh"
+gui-edit-primary-style-missing-effect: "B\u1ea1n c\u1ea7n ch\u1ecdn Hi\u1ec7u \u1ee9ng tr\u01b0\u1edbc"
+gui-edit-primary-style-description: "Ch\u1ec9nh s\u1eeda Ki\u1ec3u hi\u1ec7u \u1ee9ng trong H\u1ea1t hi\u1ec7u \u1ee9ng ch\xednh c\u1ee7a b\u1ea1n"
+gui-edit-primary-data: "Ch\u1ec9nh s\u1eeda D\u1eef li\u1ec7u ch\xednh"
+gui-edit-primary-data-missing-effect: "B\u1ea1n c\u1ea7n ch\u1ecdn Hi\u1ec7u \u1ee9ng tr\u01b0\u1edbc"
+gui-edit-primary-data-unavailable: "Hi\u1ec7u \u1ee9ng ch\xednh c\u1ee7a b\u1ea1n kh\xf4ng c\u1ea7n s\u1eed d\u1ee5ng b\u1ea5t k\xec D\u1eef li\u1ec7u n\xe0o"
+gui-edit-primary-data-description: "Ch\u1ec9nh s\u1eeda D\u1eef li\u1ec7u trong H\u1ea1t hi\u1ec7u \u1ee9ng ch\xednh c\u1ee7a b\u1ea1n"
+
+# GUI Manage Particles Messages
+gui-manage-your-particles: "Qu\u1ea3n l\xed H\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n"
+gui-manage-your-particles-name: "Qu\u1ea3n l\xed H\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n"
+gui-manage-your-particles-description: "T\u1ea1o, ch\u1ec9nh s\u1eeda, v\xe0 x\xf3a H\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n"
+gui-manage-your-groups: "Qu\u1ea3n l\xed Group c\u1ee7a b\u1ea1n"
+gui-manage-your-groups-name: "Qu\u1ea3n l\xed Group c\u1ee7a b\u1ea1n"
+gui-manage-your-groups-description: "T\u1ea1o, x\xf3a, v\xe0 t\u1ea3i Group H\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n"
+
+# GUI Load Messages
+gui-load-a-preset-group: "T\u1ea3i m\u1ed9t Preset Group"
+gui-load-a-preset-group-description: "T\u1ea3i Group H\u1ea1t hi\u1ec7u \u1ee9ng c\xf3 s\u1eb5n"
+
+# GUI Save Messages
+gui-save-group: "L\u01b0u group m\u1edbi"
+gui-save-group-description: "Nh\u1ea5n \u0111\u1ec3 l\u01b0u Group m\u1edbi. B\u1ea1n s\u1ebd nh\u1eadn \u0111\u01b0\u1ee3c l\u1eddi nh\u1eafc nh\u1eadp t\xean Group \u1edf chat."
+gui-save-group-full: "B\u1ea1n \u0111\xe3 \u0111\u1ea1t \u0111\u1ebfn gi\u1edbi h\u1ea1n s\u1ed1 l\u01b0\u1ee3ng group c\xf3 th\u1ec3 t\u1ea1o"
+gui-save-group-no-particles: "B\u1ea1n kh\xf4ng c\xf3 b\u1ea5t k\xec Hh\u1ea1t hi\u1ec7u \u1ee9ng n\xe0o \u0111\u01b0\u1ee3c \xe1p d\u1ee5ng"
+gui-save-group-hotbar-message: "&eNh\u1eadp &b1 &et\xean group trong chat. Nh\u1eadp &ccancel&e \u0111\u1ec3 h\u1ee7y. (&b%seconds%&es left)"
+gui-save-group-chat-message: "&eS\u1eed d\u1ee5ng &b/pp group save <T\xean> &e\u0111\u1ec3 l\u01b0u m\u1ed9t nh\xf3m h\u1ea1t m\u1edbi."
+
+# GUI Reset Messages
+gui-reset-particles: "L\xe0m m\u1edbi H\u1ea1t hi\u1ec7u \u1ee9ng c\u1ee7a b\u1ea1n"
+gui-reset-particles-description: "X\xf3a t\u1ea5t c\u1ea3 H\u1ea1t hi\u1ec7u \u1ee9ng \u0111ang ho\u1ea1t \u0111\u1ed9ng c\u1ee7a b\u1ea1n"
+
+# GUI Misc Messages
+gui-particle-name: "H\u1ea1t hi\u1ec7u \u1ee9ng #%id%"
+gui-click-to-edit-particle: "Nh\u1ea5n \u0111\u1ec3 ch\u1ec9nh s\u1eeda Hi\u1ec7u \u1ee9ng, Ki\u1ec3u hi\u1ec7u \u1ee9ng, ho\u1eb7c D\u1eef li\u1ec7u c\u1ee7a H\u1ea1t hi\u1ec7u \u1ee9ng n\xe0y"
+gui-editing-particle: "\u0110ang ch\u1ec9nh s\u1eeda H\u1ea1t hi\u1ec7u \u1ee9ng #%id%"
+
+# GUI Edit Messages
+gui-edit-effect: "Ch\u1ec9nh s\u1eeda Hi\u1ec7u \u1ee9ng"
+gui-edit-effect-description: "Nh\u1ea5n \u0111\u1ec3 ch\u1ec9nh s\u1eeda Hi\u1ec7u \u1ee9ng c\u1ee7a H\u1ea1t hi\u1ec7u \u1ee9ng n\xe0y"
+gui-edit-style: "Ch\u1ec9nh s\u1eeda Ki\u1ec3u hi\u1ec7u \u1ee9ng"
+gui-edit-style-description: "Nh\u1ea5n \u0111\u1ec3 ch\u1ec9nh s\u1eeda Ki\u1ec3u hi\u1ec7u \u1ee9ng c\u1ee7a Ki\u1ec3u hi\u1ec7u \u1ee9ng n\xe0y"
+gui-edit-data: "Ch\u1ec9nh s\u1eeda D\u1eef li\u1ec7u"
+gui-edit-data-description: "Nh\u1ea5n \u0111\u1ec3 ch\u1ec9nh s\u1eeda D\u1eef li\u1ec7u c\u1ee7a Ki\u1ec3u hi\u1ec7u \u1ee9ng n\xe0y"
+gui-edit-data-unavailable: "Hi\u1ec7u \u1ee9ng c\u1ee7a H\u1ea1t hi\u1ec7u \u1ee9ng n\xe0y kh\xf4ng c\u1ea7n s\u1eed d\u1ee5ng b\u1ea5t k\xec D\u1eef li\u1ec7u n\xe0o"
+gui-data-none: "kh\xf4ng ai"
+
+# GUI Create Messages
+gui-create-particle: "T\u1ea1o m\u1edbi m\u1ed9t H\u1ea1t hi\u1ec7u \u1ee9ng"
+gui-create-particle-description: "T\u1ea1o m\u1edbi m\u1ed9t H\u1ea1t hi\u1ec7u \u1ee9ng v\u1edbi Hi\u1ec7u \u1ee9ng, Ki\u1ec3u hi\u1ec7u \u1ee9ng, v\xe0 D\u1eef li\u1ec7u"
+gui-create-particle-unavailable: "b\u1ea1n \u0111\xe3 \u0111\u1ea1t gi\u1edbi h\u1ea1n s\u1ed1 l\u01b0\u1ee3ng H\u1ea1t hi\u1ec7u \u1ee9ng c\xf3 th\u1ec3 t\u1ea1o"
+
+# GUI Select Messages
+gui-select-effect: "Ch\u1ecdn H\u1ea1t hi\u1ec7u \u1ee9ng"
+gui-select-effect-description: "Thi\u1ebft l\u1eadp hi\u1ec7u \u1ee9ng c\u1ee7a H\u1ea1t th\xe0nh &b%effect%"
+gui-select-style: "Ch\u1ecdn Ki\u1ec3u hi\u1ec7u \u1ee9ng c\u1ee7a H\u1ea1t"
+gui-select-style-description: "Thi\u1ebft l\u1eadp Ki\u1ec3u hi\u1ec7u \u1ee9ng c\u1ee7a H\u1ea1t th\xe0nh &b%style%"
+gui-select-data: "Ch\u1ecdn D\u1eef li\u1ec7u c\u1ee7a H\u1ea1t"
+gui-select-data-description: "Thi\u1ebft l\u1eadp D\u1eee li\u1ec7u c\u1ee7a H\u1ea1t th\xe0nh &b%data%"
+gui-select-data-note: 'Note #%note%'
+gui-select-data-color-transition-start: "&eCh\u1ecdn m\xe0u &bb\u1eaft \u0111\u1ea7u"
+gui-select-data-color-transition-end: "&eCh\u1ecdn m\xe0u &bk\u1ebft th\xfac"
+gui-select-data-vibration: '&b%ticks% &eticks'
+
+# GUI Color Name Messages
+gui-edit-data-color-red: "#ff0000\u0110\u1ecf m\u1ea1nh m\u1ebd"
+gui-edit-data-color-orange: "#ff8c00Cam d\u1ecbu d\xe0ng"
+gui-edit-data-color-yellow: "#ffff00V\xe0ng y\xeau th\u01b0\u01a1ng"
+gui-edit-data-color-lime-green: "#32cd32Xanh nh\u1eb9 nh\xe0ng"
+gui-edit-data-color-green: "#008000Xanh \u0111en t\u1ed1i"
+gui-edit-data-color-blue: '#0000ffXanh lam'
+gui-edit-data-color-cyan: "#008b8bL\u1ee5c lam"
+gui-edit-data-color-light-blue: "#add8e6Xanh Da tr\u1eddi"
+gui-edit-data-color-purple: "#8a2be2T\xedm c\xe1 t\xednh"
+gui-edit-data-color-magenta: "#ca1f7b\u0110\u1ecf t\u01b0\u01a1i"
+gui-edit-data-color-pink: "#ffb6c1H\u1ed3ng nam t\xednh"
+gui-edit-data-color-brown: "#8b4513N\xe2u th\xe2m th\xe2m"
+gui-edit-data-color-black: "#000000\u0110en nh\u01b0 t\xe2m h\u1ed3n"
+gui-edit-data-color-gray: "#808080X\xe1m"
+gui-edit-data-color-light-gray: "#c0c0c0X\xe1m nh\u1ea1t"
+gui-edit-data-color-white: "#ffffffTr\u1eafng tinh khi\u1ebft"

@@ -1,0 +1,16 @@
+location: mia:88.520:102.000:95.525
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&lLeaderboards &fof the SMP'
+    height: 1.0
+  - content: '&c#NoLeaderboards &fsorry.'
+    height: 0.3
+  - content: '&cNo Players at the moment&f.'
+    height: 0.3
+  actions: {}

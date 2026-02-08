@@ -1,0 +1,199 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+last-created-npc-id: 9
+npc:
+  '6':
+    name: '&eClick to Connect.'
+    uuid: 7405b627-f91b-436c-9149-9a048ebe9ece
+    traits:
+      spawned: true
+      owner:
+        uuid: 28f8b810-2600-31ce-8e55-da2165913044
+      type: PLAYER
+      location:
+        bodyYaw: -124.19901
+        world: mia
+        x: '65.5007'
+        y: '99.0'
+        z: '82.5121'
+        yaw: '-124.199'
+        pitch: '21.7891'
+      rotationtrait:
+        globalParameters: {}
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      inventory: {}
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&9Skywars'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait: {}
+    traitnames: hologramtrait,scoreboardtrait,owner,mounttrait,type,rotationtrait,lookclose,location,inventory,skintrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '5':
+    name: '&eClick to Connect.'
+    uuid: 83c72e2c-b179-47f7-af53-488f7087f937
+    traits:
+      spawned: true
+      owner:
+        uuid: 28f8b810-2600-31ce-8e55-da2165913044
+      type: PLAYER
+      location:
+        bodyYaw: -175.24622
+        world: mia
+        x: '69.4938'
+        y: '99.0'
+        z: '81.4423'
+        yaw: '-175.2462'
+        pitch: '48.8414'
+      rotationtrait:
+        globalParameters: {}
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      inventory: {}
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&bBedwars'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait: {}
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+    traitnames: hologramtrait,commandtrait,scoreboardtrait,owner,mounttrait,type,lookclose,rotationtrait,location,inventory,skintrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '9':
+    name: '&eClick to Connect.'
+    uuid: 0f6abd04-c617-4763-9ea5-bfbef41d302f
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      rotationtrait:
+        globalParameters: {}
+      type: PLAYER
+      scoreboardtrait: {}
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&aParkour'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      spawned: true
+      location:
+        bodyYaw: 139.35593
+        world: mia
+        x: '73.472'
+        y: '99.0'
+        z: '82.5144'
+        yaw: '139.3559'
+        pitch: '22.8099'
+      owner:
+        uuid: 28f8b810-2600-31ce-8e55-da2165913044
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+    traitnames: hologramtrait,commandtrait,scoreboardtrait,owner,mounttrait,type,lookclose,rotationtrait,location,inventory,skintrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false

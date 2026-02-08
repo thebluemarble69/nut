@@ -1,0 +1,10 @@
+version: 1
+mia:
+  spawn:
+    x: 69.49227644521437
+    y: 100.0
+    z: 111.46390595065463
+    pitch: 2.0866497
+    yaw: -180.63133
+    world: mia
+  mode: spawn

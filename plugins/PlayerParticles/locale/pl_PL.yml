@@ -1,0 +1,337 @@
+# pl_PL translation by THE___BULDI___
+# Plugin Message Prefix
+prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
+
+# Command Description Messages
+command-error-missing-effects-or-styles: "&cMusisz mie\u0107 dost\u0119p do cz\u0105steczek i wzor\xf3w aby u\u017cy\u0107 tej komendy!"
+command-error-unknown: "&cNieznana komenda, u\u017cyj &b/pp help &caby wy\u015bwietli\u0107 list\u0119 komend."
+command-descriptions: "&eDost\u0119pne s\u0105 nast\u0119puj\u0105ce komendy:"
+command-descriptions-usage: '&e/pp %cmd% %args%'
+command-descriptions-help-1: '&7> &b/pp %cmd% &e- %desc%'
+command-descriptions-help-2: '&7> &b/pp %cmd% %args% &e- %desc%'
+command-descriptions-help-other: "&7> &b/ppo <gracz> <komenda> &e- Wykonujesz komend\u0119 /pp jako podany gracz"
+command-description-add: Dodaje nowy efekt
+command-description-data: "Sprawd\u017a jakie dane ma dana cz\u0105steczka"
+command-description-default: "G\u0142\xf3wna komenda. Standardowo otwiera konsol\u0119 efekt\xf3w"
+command-description-edit: Edytuj efekt
+command-description-effects: "Wy\u015bwietl list\u0119 cz\u0105steczek kt\xf3re mo\u017cesz u\u017cy\u0107"
+command-description-fixed: "Zarz\u0105dzaj twoimi uziemionymi efektami"
+command-description-group: "Zarz\u0105dzaj twoimi grupami"
+command-description-gui: "Wy\u015bwietl konsol\u0119 efekt\xf3w aby \u0142atwiej zarz\u0105dza\u0107 edycj\u0105 efekt\xf3w"
+command-description-help: "Wy\u015bwietl opis komend... w\u0142a\u015bnie na to patrzysz"
+command-description-info: "Wy\u015bwietl opis jednego, konkretnego efektu"
+command-description-list: "Wy\u015bwietl list\u0119 twoich aktywnych efekt\xf3w"
+command-description-reload: "Od\u015bwierza config.yml i dokument tekstowy z t\u0142umaczeniem"
+command-description-remove: Usuwa dany efekt
+command-description-reset: Usuwa wszystkie aktywne efekty
+command-description-styles: "Wy\u015bwietl list\u0119 wzor\xf3w kt\xf3re mo\u017cesz u\u017cy\u0107"
+command-description-toggle: "W\u0142\u0105cz/Wy\u0142\u0105cz widoczno\u015b\u0107 cz\u0105steczek"
+command-description-use: "Edytuj tw\xf3j g\u0142\xf3wny efekt"
+command-description-version: "Wy\u015bwietl aktualn\u0105 wersj\u0119 pluginu oraz autora"
+command-description-worlds: "Sprawd\u017a w jakich \u015bwiatach efekty s\u0105 wy\u0142\u0105czone"
+
+# Fixed Particle Command Description Messages
+command-description-fixed-create: "&e/pp fixed create <<x> <y> <z>|<looking>> <cz\u0105steczka> <wz\xf3r> [dane] - Tworzy nowy uziemiony efekt"
+command-description-fixed-create-console: "&e/pp fixed create <x> <y> <z> <world> <cz\u0105steczka> <wz\xf3r> [dane] - Tworzy nowy uziemiony efekt"
+command-description-fixed-edit: "&e/pp fixed edit <Nr> <cz\u0105steczka|wz\xf3r|dane|pozycja> <zmienne> - Edytuj dan\u0105 cz\u0119\u015b\u0107 uziemonego efektu bazuj\u0105c na jego numerze"
+command-description-fixed-remove: '&e/pp fixed remove <Nr> - Usuwa uziemiony efekt o danym numerze'
+command-description-fixed-list: "&e/pp fixed list - Wy\u015bwietla list\u0119 z numerami twoich uziemionych efekt\xf3w"
+command-description-fixed-info: '&e/pp fixed info <Nr> - Pokazuje informacje o uziemionym efekcie o danym numerze'
+command-description-fixed-clear: "&e/pp fixed clear <odleg\u0142o\u015b\u0107> - Usuwa wszystkie uziemione efekty w podanej odlag\u0142o\u015bci od ciebie"
+command-description-fixed-clear-console: "&e/pp fixed clear <odleg\u0142o\u015b\u0107> <x> <y> <z> <\u015bwiat> - Usuwa wszystkie uziemione efekty w podanej odlag\u0142o\u015bci od ustawionych koordynat\xf3w"
+command-description-fixed-teleport: '&e/pp fixed teleport <Nr> - Teleportuje do uziemionego efektu o podanym numerze'
+
+# Group Command Description Messages
+command-description-group-save: '&e/pp group save <nazwa> - Zapisz wszystkie aktywne efekty w nowej grupie'
+command-description-group-load: "&e/pp group load <nazwa> - Za\u0142aduj zapisan\u0105 grup\u0119 efekt\xf3w"
+command-description-group-remove: "&e/pp group remove <nazwa> - Usu\u0144 zapisan\u0105 grup\u0119 efekt\xf3w"
+command-description-group-list: "&e/pp group list <nazwa> - Wy\u015bwietl wszystkie zapisane grupy efekt\xf3w"
+command-description-group-info: "&e/pp group info <nazwa> - Wy\u015biwetla list\u0119 efekt\xf3w zapisanych w danej grupie"
+
+# ID Messages
+id-invalid: "&cNumer kt\xf3ry poda\u0142e\u015b jest nie prawid\u0142owy! Musi to by\u0107 dodatnie liczba ca\u0142kowita."
+id-unknown: '&cNie masz efektu o numerze &b%id%&c!'
+
+# Other Messages
+other-no-permission: "&cNie masz permisji aby wykonywa\u0107 te komendy jako inny gracz!"
+other-missing-args: "&cTwoja komenda jest niekompletna.&b U\u017cyj /ppo <gracz> <komenda>"
+other-unknown-player: "&cNie znaleziono gracza &b%player%. Ta osoba musi by\u0107 online."
+other-unknown-command: '&cNie ma takiej komendy jak &b/pp %cmd%.'
+other-success: '&eWykonywanie komendy /pp dla gracza &b%player%&e.'
+
+# Add Messages
+add-reached-max: "&cNie uda\u0142o si\u0119 doda\u0107 efektu, osi\u0105gn\u0105\u0142e\u015b limit w postaci &b%amount% &cmo\u017cliwych efekt\xf3w!"
+add-particle-applied: "&aNowy efekt zosta\u0142 utworzony z cz\u0105steczk\u0105 &b%effect%&a, wzorem &b%style%&a, i danymi &b%data%&a!"
+data-no-args: "&cBrakuje nazwy cz\u0105steczki! Poprawne u\u017cycie: &b/pp data <cz\u0105steczka>"
+
+# Edit Messages
+edit-invalid-property: "&cZosta\u0142a podana nieprawid\u0142owa warto\u015b\u0107 &b%prop%. Prawid\u0142owymi warto\u015bciami mog\u0105 by\u0107 &bcz\u0105tecki&c, &bwzory&c oraz &bdane"
+edit-success-effect: "&aTw\xf3j efekt o numerze &b%id% &amia\u0142 zmienion\u0105 cz\u0105steczk\u0119 na &b%effect%&a!"
+edit-success-style: "&aTw\xf3j efekt o numerzef &b%id% &amia\u0142 zmieniony wz\xf3r na &b%style%&a!"
+edit-success-data: "&aTw\xf3j efekt o numerze &b%id% &amia\u0142 zmienione dane na &b%data%&a!"
+
+# Group Messages
+group-invalid: "&cZapisana grupa efekt\xf3w o nazwie &b%name%&c nie istnieje!"
+group-no-permission: "&cNie masz dost\u0119pu do kt\xf3rej\u015b cz\u0105steczki b\u0105d\u017a wzoru z grupy &b%group%&c!"
+group-preset-no-permission: "&cNie masz dost\u0119pu do kt\xf3rej\u015b cz\u0105steczki b\u0105d\u017a wzoru z grupy &b%group%&c!"
+group-reserved: "&cNie mo\u017cesz nazwa\u0107 grupy &bactive &c!"
+group-no-name: "&cNie poda\u0142e\u015b nazwy grupy! &b/pp %cmd% <nazwaGrupy>"
+group-save-reached-max: "&cNie uda\u0142o si\u0119 zapisac grupy. Osi\u0105gn\u0105\u0142e\u015b limit grup efekt\xf3w!"
+group-save-no-particles: "&cNie uda\u0142o si\u0119 zapisac grupy. Nie masz na\u0142o\u017conych \u017cadnych efekt\xf3w!"
+group-save-success: "&aTwoje aktualne efekty zosta\u0142y zapisane w grupie &b%name%&a!"
+group-save-success-overwrite: "&agrupa efekt\xf3wd &b%name% &azosta\u0142a zaaktualizowana o twoje aktualne efekty!"
+group-load-success: "&aZa\u0142adowano &b%amount% &aefekt\xf3w z grupy efekt\xf3w &b%name%&a!"
+group-load-preset-success: "&aZa\u0142adowano &b%amount% &aefekt\xf3w z presetu administracyjnego &b%name%&a!"
+group-unload-success: "&aUsuni\u0119to &b%amount% &aparticle(s) pasuj\u0105ce do grupy &b%name%&a!"
+group-remove-preset: "&cNie mo\u017cesz usuwa\u0107 preset\xf3w administracyjnych!"
+group-remove-success: "&aUsuni\u0119to grup\u0119 efekt\xf3w &b%name%&a!"
+group-info-header: "&eGrupa &b%group% &ema nast\u0119puj\u0105ce efekty:"
+group-list-none: "&eNie masz zapisanych \u017cadnych grup efekt\xf3w!"
+group-list-output: "&eMasz zapisane podane grupy efekt\xf3w: &b%info%"
+group-list-presets: "&eMasz dost\u0119p do podanych preset\xf3w administracyjnych: &b%info%"
+
+# Reload Messages
+reload-success: "&aPugin zosta\u0142 od\u015bwie\u017cony!"
+reload-no-permission: "&cNie masz dost\u0119pu do od\u015bwie\u017cania pluginu!"
+
+# Remove Messages
+remove-no-args: "&cNie poda\u0142e\u015b numeru do usuni\u0119cia! &b/pp remove <numer>"
+remove-id-success: "&aEfekt o numerze &b%id% &azosta\u0142 usuni\u0119ty!"
+remove-effect-success: "&aUsuni\u0119to &b%amount% &atwoich efekt\xf3w z cz\u0105steczk\u0119 &b%effect%&a!"
+remove-effect-none: "&cNie masz \u017cadnych efekt\xf3w z cz\u0105steczk\u0105 &b%effect%&c!"
+remove-style-success: "&aUsuni\u0119to &b%amount% &atwoich efekt\xf3w ze wzorem &b%style%&a!"
+remove-style-none: "&cNie masz \u017cadnych efekt\xf3w ze wzorem &b%style%&c!"
+remove-effect-style-none: "&cNie masz \u017cadnych efekt\xf3w z cz\u0105steczk\u0105 lub wzorem &b%name%&c!"
+remove-unknown: "&cCz\u0105steczka b\u0105d\u017a wz\xf3r o nazwie &b%name% &cnie istnieje!"
+
+# List Messages
+list-none: "&eNie masz \u017cadnych aktywnych efekt\xf3w!"
+list-you-have: "&eMasz na\u0142o\u017cone nast\u0119puj\u0105ce efekty:"
+list-output: "&eNumer: &b%id% &eCz\u0105steczka: &b%effect% &eWz\xf3r: &b%style% &eDane: &b%data%"
+
+# Toggle Messages
+toggle-on: "&eWidoczno\u015b\u0107 efekt\xf3w zosta\u0142a dla ciebie &aW\u0142\u0105czona&e!"
+toggle-off: "&eWidoczno\u015b\u0107 efekt\xf3w zosta\u0142a dla ciebie &cWy\u0142\u0105czona&e!"
+
+# Use Messages
+use-particle-modified: "&aTw\xf3j g\u0142\xf3wny efekt ma od teraz cz\u0105steczk\u0119 &b%effect%&a, wz\xf3r &b%style%&a, oraz dane &b%data%&a!"
+
+# Color Messages
+rainbow: '&cR&6a&ei&an&bb&9o&dw'
+random: Random
+
+# Effect Messages
+effect-no-permission: "&cNie masz dost\u0119pu do cz\u0105steczki &b%effect%&c!"
+effect-invalid: "&cCz\u0105teczka &b%effect% &cnie istnieje! U\u017cyj &b/pp effects &caby wy\u015bwietli\u0107 dost\u0119pn\u0105 list\u0119 cz\u0105steczek."
+effect-list: "&eMasz dost\u0119p do nast\u0119puj\u0105cych cz\u0105steczek: &b%effects%"
+effect-list-empty: "&cNie masz dost\u0119pu do \u017cadnych cz\u0105steczek!"
+
+# Style Messages
+style-no-permission: "&cNie masz dost\u0119pu do wzoru &b%style%&c!"
+style-event-spawning-info: "&eNota: Wz\xf3r &b%style% &espawnuje cz\u0105steczki na postawie zachowania gracza."
+style-invalid: "&cWz\xf3r &b%style% &cnie istnieje! Wpisz &b/pp styles &caby zobaczy\u0107 list\u0119 dost\u0119pnych wzor\xf3w."
+style-list: "&eMasz dost\u0119p do nast\u0119puj\u0105cych wzor\xf3w: &b%styles%"
+
+# Data Messages
+data-usage-none: "&eCz\u0105steczka &b%effect% &eNie wymaga \u017cadnych danych!"
+data-usage-block: "&eCz\u0105steczka &b%effect% &erequires &bblock &edata! &bFormat: <nazwaBloku>"
+data-usage-item: "&eCz\u0105steczka &b%effect% &erequires &bitem &edata! &bFormat: <nazwaItemu>"
+data-usage-color: "&eCz\u0105steczka &b%effect% &erequires &bcolor &edata! &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-usage-note: "&eCz\u0105steczka &b%effect% &erequires &bnote &edata! &bFormat: <0-24>|<&brainbow>|<random>"
+data-usage-color-transition: "&eTCz\u0105steczka &b%effect% &erequires &bcolor transition &edata! &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random> <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-usage-vibration: "&eCz\u0105steczka &b%effect% &erequires &bvibration &edata! &bFormat: <d\u0142ugo\u015b\u0107>"
+data-invalid-block: "&cDane &bbloku&c kt\xf3re poda\u0142e\u015b s\u0105 nieprawid\u0142owe! &bFormat: <nazwaBloku>"
+data-invalid-item: "&cDane &bitemu&c kt\xf3re poda\u0142e\u015b s\u0105 nieprawid\u0142owe! &bFormat: <nazwaItemu>"
+data-invalid-color: "&cDane &bkoloru&c kt\xf3re poda\u0142e\u015b s\u0105 nieprawid\u0142owe! &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-invalid-note: "&cDane &bd\u017awi\u0119ku&c kt\xf3re poda\u0142e\u015b s\u0105 nieprawid\u0142owe! &bFormat: <0-24>|<&brainbow>|<random>"
+data-invalid-color-transition: "&cDane &bzmieny koloru&c kt\xf3re poda\u0142e\u015b s\u0105 nieprawid\u0142owe! &bFormat: <<0-255> <0-255> <0-255>>|<&brainbow>|<random> <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-invalid-vibration: "&cDane &bwibracji&c kt\xf3re poda\u0142e\u015b s\u0105 nieprawid\u0142owe! &bFormat: <d\u0142ugo\u015b\u0107>"
+data-invalid-material-not-item: "&cMateria\u0142 &bprzedmiotu &b%material% &ckt\xf3ry wprowadzi\u0142e\u015b, nie jest przedmiotem!"
+data-invalid-material-not-block: "&cMateria\u0142 &bbloku &b%material% &cKt\xf3ry wprowadzi\u0142e\u015b, nie jest blokiem!"
+data-invalid-material-item: "&cMateria\u0142 &bprzedmiotu &b%material% kt\xf3ry wprowadzi\u0142e\u015b, nie istnieje!"
+data-invalid-material-block: "&cMateria\u0142 &bbloku &b%material% kt\xf3ry wprowadzi\u0142e\u015b, nie istnieje!"
+
+# World Messages
+disabled-worlds: "&eEfekty s\u0105 wy\u0142\u0105czone w podanych \u015bwiatach: &b%worlds%"
+disabled-worlds-none: "&eEfekty s\u0105 dost\u0119pne w ka\u017cdym \u015bwiecie."
+
+# Reset Message
+reset-success: "&aUsuni\u0119to &b%amount% &aaktywnych efekt\xf3w!"
+reset-others-success: "&aUsuni\u0119to efekt dla &b%other%&a!"
+reset-others-none: "&eNie usuni\u0119to \u017cadnego efektu dla &b%other%&e."
+
+# Fixed Create Messages
+fixed-create-missing-args: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, brakuje &b%amount% &cwymaganych argument\xf3w!"
+fixed-create-invalid-coords: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, jeden lub wi\u0119cej koordynat\xf3w jest nieprawid\u0142owych!"
+fixed-create-out-of-range: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, musisz by\u0107 w odleg\u0142o\u015bci &b%range% &ckratek od miejsca docelowego!"
+fixed-create-looking-too-far: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, stoisz za dalego od docelowego bloku!"
+fixed-create-effect-invalid: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, cz\u0105steczka &b%effect% &cnie istnieje!"
+fixed-create-effect-no-permission: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, nie masz dost\u0119pu do cz\u0105steczki &b%effect%&c!"
+fixed-create-style-invalid: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, wz\xf3r &b%style% &cnie istnieje!"
+fixed-create-style-no-permission: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, nie masz dost\u0119pu do wzoru &b%style%&c!"
+fixed-create-style-non-fixable: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, wz\xf3r &b%style% &cnie mo\u017ce zosta\u0107 u\u017cyty w uziemionych efektach!"
+fixed-create-data-error: "&cNie uda\u0142o si\u0119 stworzy\u0107 uziemionego efektu, podane dane s\u0105 nieprawid\u0142owe! U\u017cyj &b/pp data <cz\u0105steczka> &caby sprawdzi\u0107 prawid\u0142owe dane do cz\u0105steczki!"
+fixed-create-success: "&aTw\xf3j uziemiony efekt zosta\u0142 stworzony!"
+
+# Fixed Edit Messages
+fixed-edit-missing-args: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, brakuje kt\xf3rych\u015b argument\xf3w!"
+fixed-edit-invalid-id: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, numer jest nieprawid\u0142owy b\u0105d\u017a go nie ma!"
+fixed-edit-invalid-property: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, zosta\u0142 dodany nieprawid\u0142owy argument! Jedynie &bPozycja&c, &bCz\u0105steczka&c, &bWz\xf3r&c, oraz &bDane &cs\u0105 prawid\u0142owe."
+fixed-edit-invalid-coords: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, jeden lub wi\u0119cej koordynat\xf3w kt\xf3re wprowadzi\u0142e\u015b s\u0105 nieprawid\u0142owe!"
+fixed-edit-out-of-range: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, musisz by\u0107 w odleg\u0142o\u015bci &b%range% &ckratek od miejsca docelowego"
+fixed-edit-looking-too-far: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, stoisz za dalego od docelowego bloku!"
+fixed-edit-effect-invalid: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, cz\u0105steczka &b%effect% &cnie istnieje!"
+fixed-edit-effect-no-permission: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, nie masz dost\u0119pu do cz\u0105steczki &b%effect%&c!"
+fixed-edit-style-invalid: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, wz\xf3r &b%style% &cnie istnieje!"
+fixed-edit-style-no-permission: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, nie masz dost\u0119pu do wzoru &b%style%&c!"
+fixed-edit-style-non-fixable: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, wz\xf3r &b%style% &cnie mo\u017ce zosta\u0107 u\u017cyty w uziemionych efektach!"
+fixed-edit-data-error: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, podane dane s\u0105 nieprawid\u0142owe! U\u017cyj &b/pp data <cz\u0105steczka> &caby sprawdzi\u0107 prawid\u0142owe dane do cz\u0105steczki!"
+fixed-edit-data-none: "&cNie uda\u0142o si\u0119 edytowa\u0107 uziemionego efektu, ta cz\u0105steczka nie wymaga \u017cadnych danych!"
+fixed-edit-success: '&aZaaktualizowano &b%prop% &aw uziemionym efekcie o numerze &b%id%&a!'
+
+# Fixed Remove Messages
+fixed-remove-invalid: "&cNie uda\u0142o si\u0119 usun\u0105\u0107 uziemionego efektu, nie masz efektu o numerze &b%id%&c!"
+fixed-remove-no-args: "&cNie poda\u0142e\u015b numeru efektu kt\xf3ry usun\u0105\u0107!"
+fixed-remove-args-invalid: "&cNie uda\u0142o si\u0119 usun\u0105\u0107, podany numer efektu musi by\u0107 liczb\u0105!"
+fixed-remove-success: "&aTw\xf3j uziemiony efekt o numerze &b%id% &azosta\u0142 usuni\u0119ty!"
+
+# Fixed List Messages
+fixed-list-none: "&eNie masz \u017cadnych uziemionych efekt\xf3w!"
+fixed-list-success: '&eMasz uziemione efekty o podanych numerach: &b%ids%'
+
+# Fixed Info Messages
+fixed-info-invalid: "&cNie uda\u0142o si\u0119 znale\u017a\u0107 informacji, nie masz uziemionego efektu o numerze &b%id%&c!"
+fixed-info-no-args: "&cNie poda\u0142e\u015b numeru uziemionego efektu, kt\xf3rego informacje chcesz wy\u015bwietli\u0107!"
+fixed-info-invalid-args: "&cNie uda\u0142o si\u0119 znale\u017a\u0107 nformacji, podany numer musi by\u0107 liczb\u0105!"
+fixed-info-success: "&eNumer: &b%id% &e\u015awiat: &b%world% &eX: &b%x% &eY: &b%y% &eZ: &b%z% &eCz\u0105steczka: &b%effect% &eWz\xf3r: &b%style% &eDane: &b%data%"
+
+# Fixed Clear Messages
+fixed-clear-no-permission: "&cNie masz dost\u0119pu do usuwania pobliskich, uziemionych efekt\xf3w!"
+fixed-clear-no-args: "&cNie poda\u0142e\u015b odleg\u0142o\u015bci w jakiej maj\u0105 zosta\u0107 usuni\u0119te uziemione efekty!"
+fixed-clear-invalid-args: "&cPodana odleg\u0142o\u015b\u0107 jest nieprawid\u0142owa. Musi to by\u0107 dodatnie liczba ca\u0142kowita!"
+fixed-clear-success: "&aUsuni\u0119to &b%amount% &auziemionych efekt\xf3w w odleg\u0142o\u015bci &b%range% &akratek!"
+
+# Fixed Teleport Message
+fixed-teleport-no-permission: "&cNie masz dost\u0119pu do teleportacji do uziemionych efekt\xf3w!"
+fixed-teleport-no-args: "&cNie poda\u0142e\u015b numeru uziemionego efektu do kt\xf3rego chcesz si\u0119 teleportowa\u0107!"
+fixed-teleport-invalid-args: "&cNie uda\u0142o si\u0119 teleportowa\u0107, Podany numer jest nieprawid\u0142owy!"
+fixed-teleport-success: '&eTeleportowano do uziemionego efektu o numerze &b%id%&e!'
+
+# Fixed Other Messages
+fixed-no-permission: "&cNie masz dost\u0119pu do korzystania z uziemionych efekt\xf3w!"
+fixed-max-reached: "&cOsi\u0105gn\u0105\u0142e\u015b maksymaln\u0105 liczb\u0119 uziemionych efekt\xf3w jakie mo\u017cesz stworzy\u0107!"
+fixed-invalid-command: "&cNieprawid\u0142owa pod-komenda &b/pp fixed&c!"
+
+# Plugin Update Message
+update-available: "&eDost\u0119pna jest aktualizacja (&bv%new%&e)! Twoja aktualna wersja: &bv%current%&e. https://www.spigotmc.org/resources/playerparticles.40261/"
+
+# GUI Messages
+gui-disabled: "&cAdministrator Wy\u0142\u0105czy\u0142 dost\u0119p do konsoli efekt\xf3w!"
+gui-no-permission: "&cNie masz dost\u0119pu do konsoli efekt\xf3w!"
+
+# GUI Color Messages
+gui-color-icon-name: '&a'
+gui-color-info: '&e'
+gui-color-subtext: '&b'
+gui-color-unavailable: '&c'
+
+# GUI Info Messages
+gui-commands-info: "Komendy do efekt\xf3w znajdziesz pod &b/pp help"
+gui-toggle-visibility-on: "Efekty s\u0105 dla ciebie &aWidoczne"
+gui-toggle-visibility-off: "Efekty s\u0105 dla ciebie &cSchowane"
+gui-toggle-visibility-info: "Kliknij aby &aW\u0142\u0105czy\u0107&8/&cWy\u0142\u0105czy\u0107 &ewidoczno\u015b\u0107 efekt\xf3w"
+gui-back-button: "Powr\xf3t"
+gui-next-page-button: "Nast\u0119pna Strona (%start%/%end%)"
+gui-previous-page-button: Poprzednia Strona (%start%/%end%)
+gui-click-to-load: "Kliknij aby wczyta\u0107 %amount% cz\u0105steczek:"
+gui-shift-click-to-delete: "Przytrzymaj shift i kliknij aby usun\u0105\u0107"
+gui-particle-info: "  - Numer: &b%id% &eCz\u0105steczka: &b%effect% &eWz\xf3r: &b%style% &eDane: &b%data%"
+gui-playerparticles: "Konsola Efekt\xf3w"
+gui-active-particles: 'Aktywne Efekty: &b%amount%'
+gui-saved-groups: 'Zapisane Grupy: &b%amount%'
+gui-fixed-effects: 'Uziemione Efekty: &b%amount%'
+
+# GUI Edit Primary Messages
+gui-edit-primary-effect: "Edytuj G\u0142\xf3wny Efekt"
+gui-edit-primary-effect-description: "Kliknij aby edytowa\u0107 cz\u0105steczk\u0119 twojego g\u0142\xf3wnego efektu"
+gui-edit-primary-style: "Edytuj G\u0142\xf3wny Wz\xf3r"
+gui-edit-primary-style-missing-effect: "Musisz najpierw wybra\u0107 g\u0142\xf3wn\u0105 cz\u0105steczk\u0119"
+gui-edit-primary-style-description: "Kliknij aby edytowa\u0107 wz\xf3r twojego g\u0142\xf3wnego efektu"
+gui-edit-primary-data: "Edytuj Dane G\u0142\xf3wnego Efektu"
+gui-edit-primary-data-missing-effect: "Musisz najpierw wybra\u0107 g\u0142\xf3wn\u0105 cz\u0105steczk\u0119"
+gui-edit-primary-data-unavailable: "Twoja wybrana g\u0142\xf3wna cz\u0105steczka nie korzysta z \u017cadnych danych"
+gui-edit-primary-data-description: "Kliknij aby edytowa\u0107 dane twojego g\u0142\xf3wnego efektu"
+
+# GUI Manage Particles Messages
+gui-manage-your-particles: "Zarz\u0105dzaj Swoimi Efektami"
+gui-manage-your-particles-name: "Zarz\u0105dzaj Swoimi Efektami"
+gui-manage-your-particles-description: "Tw\xf3rz, edytuj oraz usuwaj twoje efekty"
+gui-manage-your-groups: "Zarz\u0105dzaj Swoimi Grupami"
+gui-manage-your-groups-name: "Zarz\u0105dzaj Swoimi Grupami"
+gui-manage-your-groups-description: "Tw\xf3rz, edytuj oraz usuwaj twoje grupy efekt\xf3w"
+
+# GUI Load Messages
+gui-load-a-preset-group: "Za\u0142aduj Preset Administracyjny"
+gui-load-a-preset-group-description: "Za\u0142aduj preset efekt\xf3w stworzon\u0105 przez administracj\u0119"
+
+# GUI Save Messages
+gui-save-group: "Zapisz Now\u0105 Grup\u0119"
+gui-save-group-description: "Kliknij aby zapisa\u0107 now\u0105 grup\u0119 efekt\xf3w. B\u0119dziesz poinstruowany\naby wpisa\u0107 nazw\u0105 nowej grupy na chatcie."
+gui-save-group-full: "Osi\u0105gn\u0105\u0142e\u015b maksymaln\u0105 liczb\u0119 grup jakie mo\u017cesz stworzy\u0107"
+gui-save-group-no-particles: "Nie masz na\u0142o\u017conych \u017cadnych efekt\xf3w"
+gui-save-group-hotbar-message: "&eWpisz &b1 &es\u0142owo na chatcie jako nazw\u0119 grupy. Wpisz &ccancel&e aby anulowa\u0107. (&ePozosta\u0142o &b%seconds%&es)"
+gui-save-group-chat-message: "&eU\u017cyj &b/pp group save <nazwa> &eaby zapisa\u0107 grup\u0119 efekt\xf3w."
+
+# GUI Reset Messages
+gui-reset-particles: Zresetuj Twoje Efekty
+gui-reset-particles-description: "Usu\u0144 wszystkie twoje aktywne efekty"
+
+# GUI Misc Messages
+gui-particle-name: 'Efekt #%id%'
+gui-click-to-edit-particle: "Kliknij aby edytowa\u0107 cz\u0105steczk\u0119, wz\xf3r b\u0105d\u017a dane efektu"
+gui-editing-particle: "Edytuj\u0119 Efekt #%id%"
+
+# GUI Edit Messages
+gui-edit-effect: "Edytuj Cz\u0105steczk\u0119"
+gui-edit-effect-description: "Kliknij aby edytowa\u0107 cz\u0105steczk\u0119 twojego efektu"
+gui-edit-style: "Edytuj Wz\xf3r"
+gui-edit-style-description: "Kliknij aby edytowa\u0107 wz\xf3r twojego efektu"
+gui-edit-data: Edytuj Dane
+gui-edit-data-description: "Kliknij aby edytowa\u0107 dane twojego efektu"
+gui-edit-data-unavailable: Ten efekt nie wymaga podawania dodatkowych danych
+gui-data-none: brak
+
+# GUI Create Messages
+gui-create-particle: "Stw\xf3rz Nowy Efekt"
+gui-create-particle-description: "Tutaj stworzysz nowy efekt z dan\u0105 cz\u0105steczk\u0105, wzorem oraz danymi"
+gui-create-particle-unavailable: "Osi\u0105gn\u0105\u0142e\u015b maksymaln\u0105 liczb\u0119 efekt\xf3w jakie mo\u017cesz stworzy\u0107"
+
+# GUI Select Messages
+gui-select-effect: "Wybierz cz\u0105steczk\u0119 efektu"
+gui-select-effect-description: "Ustawia cz\u0105steczk\u0119 efektu na &b%effect%"
+gui-select-style: "Wybierz wz\xf3r efektu"
+gui-select-style-description: "Ustawia wz\xf3r efektu na &b%style%"
+gui-select-data: Ustaw dane efektu
+gui-select-data-description: Ustawia dane efektu na &b%data%
+gui-select-data-note: 'Note #%note%'
+gui-select-data-color-transition-start: '&eSelect the &bstart &ecolor'
+gui-select-data-color-transition-end: '&eSelect the &bend &ecolor'
+gui-select-data-vibration: "&b%ticks% &eliczba tick\xf3w"
+
+# GUI Color Name Messages
+gui-edit-data-color-red: '#ff0000Red'
+gui-edit-data-color-orange: '#ff8c00Orange'
+gui-edit-data-color-yellow: '#ffff00Yellow'
+gui-edit-data-color-lime-green: '#32cd32Lime Green'
+gui-edit-data-color-green: '#008000Green'
+gui-edit-data-color-blue: '#0000ffBlue'
+gui-edit-data-color-cyan: '#008b8bCyan'
+gui-edit-data-color-light-blue: '#add8e6Light Blue'
+gui-edit-data-color-purple: '#8a2be2Purple'
+gui-edit-data-color-magenta: '#ca1f7bMagenta'
+gui-edit-data-color-pink: '#ffb6c1Pink'
+gui-edit-data-color-brown: '#8b4513Brown'
+gui-edit-data-color-black: '#000000Black'
+gui-edit-data-color-gray: '#808080Gray'
+gui-edit-data-color-light-gray: '#c0c0c0Light Gray'
+gui-edit-data-color-white: '#ffffffWhite'

@@ -1,0 +1,337 @@
+# zh_CN translation by qsefthuopq
+# Plugin Message Prefix
+prefix: '&7[<g:#00aaaa:#0066aa>PlayerParticles&7] '
+
+# Command Description Messages
+command-error-missing-effects-or-styles: "&c\u60a8\u5fc5\u987b\u6709\u6743\u4f7f\u7528\u6548\u679c\u548c\u6837\u5f0f\u624d\u80fd\u4f7f\u7528\u6b64\u547d\u4ee4!"
+command-error-unknown: "&c\u672a\u77e5\u7684\u6307\u4ee4\uff0c \u8bf7\u4f7f\u7528 &b/pp help &c\u67e5\u770b\u6307\u4ee4\u5217\u8868\u3002"
+command-descriptions: "&e\u4f60\u53ef\u4ee5\u4f7f\u7528\u4ee5\u4e0b\u6307\u4ee4:"
+command-descriptions-usage: '&e/pp %cmd% %args%'
+command-descriptions-help-1: '&7> &b/pp %cmd% &e- %desc%'
+command-descriptions-help-2: '&7> &b/pp %cmd% %args% &e- %desc%'
+command-descriptions-help-other: "&7> &b/ppo <player> <command> &e- \u4ee5\u73a9\u5bb6\u8eab\u4efd\u8f93\u5165 /pp "
+command-description-add: "\u6dfb\u52a0\u65b0\u7684\u7c92\u5b50\u7279\u6548"
+command-description-data: "\u67e5\u770b\u7c92\u5b50\u7279\u6548\u4f7f\u7528\u7684\u6570\u636e"
+command-description-default: "\u4e3b\u6307\u4ee4\uff0c\u9ed8\u8ba4\u6253\u5f00\u83dc\u5355"
+command-description-edit: "\u7f16\u8f91\u7c92\u5b50"
+command-description-effects: "\u663e\u793a\u4f60\u53ef\u4ee5\u4f7f\u7528\u7684\u7c92\u5b50\u6548\u679c"
+command-description-fixed: "\u7ba1\u7406\u4f60\u7684\u5b9a\u70b9\u7279\u6548"
+command-description-group: "\u7ba1\u7406\u4f60\u7684\u7279\u6548\u7ec4"
+command-description-gui: "\u6253\u5f00\u7c92\u5b50\u7279\u6548\u7f16\u8f91\u83dc\u5355"
+command-description-help: "\u663e\u793a\u5e2e\u52a9... \u5c31\u662f\u8fd9\u91cc"
+command-description-info: "\u67e5\u770b\u4f60\u4f7f\u7528\u7684\u7c92\u5b50\u7279\u6548\u7684\u63cf\u8ff0"
+command-description-list: "\u4f60\u4f7f\u7528\u7684\u7c92\u5b50\u7279\u6548\u7684id"
+command-description-reload: "\u91cd\u8f7d\u914d\u7f6e\u548c\u8bed\u8a00\u6587\u4ef6"
+command-description-remove: "\u5220\u9664\u4e00\u4e9b\u7c92\u5b50\u7279\u6548"
+command-description-reset: "\u5220\u9664\u4f60\u8eab\u4e0a\u6240\u6709\u7279\u6548"
+command-description-styles: "\u663e\u793a\u4f60\u53ef\u4ee5\u4f7f\u7528\u7684\u7c92\u5b50\u98ce\u683c"
+command-description-toggle: "\u5f00\u542f\u6216\u5173\u95ed\u7c92\u5b50\u6548\u679c\u663e\u793a"
+command-description-use: "\u4fee\u6539\u60a8\u7684\u4e3b\u7c92\u5b50"
+command-description-version: "\u663e\u793a\u63d2\u4ef6\u7248\u672c\u548c\u4f5c\u8005"
+command-description-worlds: "\u67e5\u770b\u7981\u7528\u7c92\u5b50\u7279\u6548\u7684\u4e16\u754c"
+
+# Fixed Particle Command Description Messages
+command-description-fixed-create: "&e/pp fixed create <<x> <y> <z>|<looking>> <\u7279\u6548\u540d> <\u98ce\u683c\u540d> [\u6570\u636e\u540d] - \u521b\u5efa\u65b0\u7684\u5b9a\u70b9\u7279\u6548"
+command-description-fixed-create-console: "&e/pp fixed create <x> <y> <z> <\u4e16\u754c> <\u7279\u6548\u540d> <\u98ce\u683c\u540d> [\u6570\u636e\u540d] - \u521b\u5efa\u65b0\u7684\u5b9a\u70b9\u7279\u6548"
+command-description-fixed-edit: "&e/pp fixed edit <id> <effect|style|data|location> <\u53c2\u6570> - \u6839\u636eID\u7f16\u8f91\u5b9a\u70b9\u7279\u6548"
+command-description-fixed-remove: "&e/pp fixed remove <id> - \u6839\u636eID\u5220\u9664\u5b9a\u70b9\u7279\u6548"
+command-description-fixed-list: "&e/pp fixed list - \u5217\u51fa\u6240\u6709\u5b9a\u70b9\u7279\u6548\u7684ID"
+command-description-fixed-info: "&e/pp fixed info <id> - \u83b7\u53d6\u5b9a\u70b9\u7279\u6548\u7684\u8be6\u7ec6\u4fe1\u606f"
+command-description-fixed-clear: "&e/pp fixed clear <\u534a\u5f84> - \u6e05\u7a7a\u6307\u5b9a\u8303\u56f4\u5185\u7684\u6240\u6709\u5b9a\u70b9\u7279\u6548"
+command-description-fixed-clear-console: "&e/pp fixed clear <\u534a\u5f84> <x> <y> <z> <\u4e16\u754c> - \u6e05\u7a7a\u6307\u5b9a\u8303\u56f4\u5185\u7684\u6240\u6709\u5b9a\u70b9\u7279\u6548"
+command-description-fixed-teleport: "&e/pp fixed teleport <id> - \u4f20\u9001\u4f60\u5230\u56fa\u5b9a\u6548\u679c\u4e4b\u4e00"
+
+# Group Command Description Messages
+command-description-group-save: "&e/pp group save <\u7ec4\u540d> - \u4fdd\u5b58\u6240\u6709\u4f60\u4f7f\u7528\u7684\u7279\u6548\u5230\u65b0\u7684\u7ec4\u5185"
+command-description-group-load: "&e/pp group load <\u7ec4\u540d> - \u52a0\u8f7d\u6240\u6709\u4f60\u4fdd\u5b58\u7ec4\u5185\u7684\u7279\u6548"
+command-description-group-remove: "&e/pp group remove <\u7ec4\u540d> - \u5220\u9664\u4e00\u7ec4\u4f60\u4fdd\u5b58\u7684\u7279\u6548"
+command-description-group-list: "&e/pp group list <\u7ec4\u540d> - \u5217\u51fa\u6240\u6709\u4f60\u4fdd\u5b58\u7684\u7279\u6548\u7ec4"
+command-description-group-info: "&e/pp group info <\u7ec4\u540d> - \u5217\u51fa\u7ec4\u5185\u7684\u7279\u6548\u4fe1\u606f"
+
+# ID Messages
+id-invalid: "&c\u4f60\u8f93\u5165\u7684ID\u65e0\u6548\uff0c \u5fc5\u987b\u662f\u6b63\u6574\u6570!"
+id-unknown: "&c\u4f60\u6ca1\u6709ID\u4e3a&b%id%&c\u7684\u7279\u6548!"
+
+# Other Messages
+other-no-permission: "&c\u4f60\u6ca1\u6709\u6743\u9650\u5bf9\u5176\u4ed6\u73a9\u5bb6\u4f7f\u7528PlayerParticles\u7684\u6307\u4ee4!"
+other-missing-args: "&c\u7f3a\u5c11\u53c2\u6570\u3002 &b/ppo <player> <command>"
+other-unknown-player: "&c\u627e\u4e0d\u5230\u73a9\u5bb6&b%player%&c\u3002\u73a9\u5bb6\u5fc5\u987b\u5728\u7ebf\u3002"
+other-unknown-command: "&c\u6307\u4ee4&b/pp %cmd% &c\u4e0d\u5b58\u5728\u3002"
+other-success: "&e\u5df2\u4e3a&b%player%&e\u6267\u884c\u6307\u4ee4 /pp \u3002 \u8f93\u51fa:"
+
+# Add Messages
+add-reached-max: "&c\u65e0\u6cd5\u4f7f\u7528\u7c92\u5b50\u6548\u679c\uff0c\u4f60\u5df2\u8fbe\u5230\u4e0a\u9650:&b%amount%&c!"
+add-particle-applied: "&a\u6210\u529f\u6dfb\u52a0\u65b0\u7684\u7c92\u5b50\u7279\u6548\uff1a &b%effect%&a\uff0c \u98ce\u683c\uff1a &b%style%&a\uff0c\u6570\u636e\uff1a &b%data%&a!"
+data-no-args: "&c\u8be5\u7279\u6548\u7f3a\u5931\u53c2\u6570! \u6307\u4ee4\u7528\u6cd5: &b/pp data <effect>"
+
+# Edit Messages
+edit-invalid-property: "&c\u60a8\u8f93\u5165\u7684\u53c2\u6570&b%prop%&c\u65e0\u6548\u3002 \u6709\u6548\u53c2\u6570\u4e3a: &beffect&c\uff0c &bstyle&c\uff0c &bdata"
+edit-success-effect: "&aID\u4e3a&b%id%&a\u7684\u7c92\u5b50\u7684\u7279\u6548\u5df2\u66f4\u6539\u4e3a&b%effect%&a!"
+edit-success-style: "&aID\u4e3a&b%id%&a\u7684\u7c92\u5b50\u7684\u98ce\u683c\u5df2\u66f4\u6539\u4e3a&b%style%&a!"
+edit-success-data: "&aID\u4e3a&b%id%&a\u7684\u7c92\u5b50\u7684\u6570\u636e\u5df2\u66f4\u6539\u4e3a&b%data%&a!"
+
+# Group Messages
+group-invalid: "&c\u540d\u4e3a&b%name%&c\u7684\u7c92\u5b50\u7ec4\u4e0d\u5b58\u5728!"
+group-no-permission: "&c\u4f60\u6ca1\u6709\u4f7f\u7528&b%group%&c\u7684\u6743\u9650!"
+group-preset-no-permission: "&c\u4f60\u6ca1\u6709\u4f7f\u7528\u9884\u8bbe\u7c92\u5b50\u7ec4&b%group%&c\u7684\u6743\u9650!"
+group-reserved: "&c\u8be5\u7ec4\u540d&b&c\u65e0\u6cd5\u4f7f\u7528!"
+group-no-name: "&c\u4f60\u6ca1\u6709\u8f93\u5165\u7ec4\u540d! &b/pp %cmd% <\u7ec4\u540d>"
+group-save-reached-max: "&c\u65e0\u6cd5\u4fdd\u5b58\u7c92\u5b50\u7ec4\uff0c\u4f60\u5df2\u8fbe\u5230\u53ef\u4f7f\u7528\u7c92\u5b50\u7ec4\u7684\u4e0a\u9650!"
+group-save-no-particles: "&c\u65e0\u6cd5\u4fdd\u5b58\u7c92\u5b50\u7ec4\uff0c\u4f60\u6ca1\u6709\u6dfb\u52a0\u4efb\u4f55\u7c92\u5b50!"
+group-save-success: "&a\u4f60\u5f53\u524d\u4f7f\u7528\u7684\u7c92\u5b50\u7279\u6548\u5df2\u6210\u529f\u4fdd\u5b58\u5165\u7c92\u5b50\u7ec4&b%name%&a\u5185!"
+group-save-success-overwrite: "&a\u5df2\u5c06\u4f60\u5f53\u524d\u4f7f\u7528\u7684\u7c92\u5b50\u7279\u6548\u52a0\u5165\u5230\u7c92\u5b50\u7ec4&b%name%&a\u5185!"
+group-load-success: "&a\u5df2\u5c06&b%amount%&a\u4e2a\u7c92\u5b50\u7279\u6548\u52a0\u5165\u4f60\u5df2\u4fdd\u5b58\u7684\u7c92\u5b50\u7ec4&b%name%&a\u5185!"
+group-load-preset-success: "&a\u5df2\u4f7f\u7528&b%name%&a\u9884\u8bbe\u7ec4\u5185\u7684&b%amount%&a\u4e2a\u7c92\u5b50\u7279\u6548!"
+group-unload-success: "&a\u5220\u9664\u4e86\u4e0e\u7ec4\u522b&b%name%&a\u76f8\u5339\u914d\u7684&b%amount%&a\u7c92\u5b50!"
+group-remove-preset: "&c\u4f60\u65e0\u6cd5\u5220\u9664\u9884\u8bbe\u7c92\u5b50\u7ec4!"
+group-remove-success: "&a\u6210\u529f\u5220\u9664\u7c92\u5b50\u7ec4&b%name%&a!"
+group-info-header: "&e\u7c92\u5b50\u7ec4&b%group%&e\u62e5\u6709\u4ee5\u4e0b\u7c92\u5b50\u7279\u6548:"
+group-list-none: "&e\u4f60\u6ca1\u6709\u4fdd\u5b58\u4efb\u4f55\u7c92\u5b50\u7ec4!"
+group-list-output: "&e\u4f60\u5df2\u6210\u529f\u4fdd\u5b58\u4ee5\u4e0b\u7c92\u5b50\u7ec4: &b%info%"
+group-list-presets: "&e\u53ef\u4f7f\u7528\u4ee5\u4e0b\u9884\u8bbe\u7c92\u5b50\u7ec4: &b%info%"
+
+# Reload Messages
+reload-success: "&a\u63d2\u4ef6\u5df2\u91cd\u8f7d!"
+reload-no-permission: "&c\u4f60\u6ca1\u6709\u91cd\u8f7d\u63d2\u4ef6\u914d\u7f6e\u7684\u6307\u4ee4!"
+
+# Remove Messages
+remove-no-args: "&c\u4f60\u6ca1\u6709\u6307\u5b9a\u8981\u5220\u9664\u7684ID! &b/pp remove <ID>"
+remove-id-success: "&a\u4f60\u5df2\u6210\u529f\u5220\u9664ID\u4e3a&b%id%&a\u7684\u7c92\u5b50\u7279\u6548!"
+remove-effect-success: "&a\u6210\u529f\u5220\u9664&b%amount%&a\u4e2a&b%effect%&a\u7279\u6548\u7684\u7c92\u5b50!"
+remove-effect-none: "&c\u4f60\u6ca1\u6709\u4f7f\u7528\u7279\u6548&b%effect%&c\u7684\u7c92\u5b50!"
+remove-style-success: "&\u5df2\u6210\u529f\u5220\u9664&b%amount%&a\u4e2a\u4f7f\u7528\u4e86\u98ce\u683c&b%style%&a\u7684\u7c92\u5b50!"
+remove-style-none: "&c\u4f60\u6ca1\u6709\u5df2\u4f7f\u7528\u98ce\u683c&b%style%&c\u7684\u7c92\u5b50!"
+remove-effect-style-none: "&c\u60a8\u6ca1\u6709\u5e94\u7528\u4efb\u4f55\u9897\u7c92\u6548\u679c\u6216\u6837\u5f0f&b%name%&c!"
+remove-unknown: "&c\u540d\u4e3a&b%name%&c\u7684\u7279\u6548\u6216\u98ce\u683c\u4e0d\u5b58\u5728!"
+
+# List Messages
+list-none: "&e\u4f60\u6ca1\u6709\u4efb\u4f55\u6fc0\u6d3b\u7684\u7279\u6548!"
+list-you-have: "&e\u4f60\u4f7f\u7528\u4e86\u4ee5\u4e0b\u7c92\u5b50\u7279\u6548:"
+list-output: "&eID: &b%id% &e\u7279\u6548: &b%effect% &e\u98ce\u683c: &b%style% &e\u6570\u636e: &b%data%"
+
+# Toggle Messages
+toggle-on: "&e\u7c92\u5b50\u7279\u6548\u5df2&a\u5f00\u542f&e!"
+toggle-off: "&e\u7c92\u5b50\u7279\u6548\u5df2&c\u5173\u95ed&e!"
+
+# Use Messages
+use-particle-modified: "\u4f60\u7684\u4e3b\u7c92\u5b50\u5df2\u7ecf\u88ab\u4fee\u6539\u4e3a\u4f7f\u7528\u6548\u679c&b%effect%&a\u3001\u6837\u5f0f&b%style%&a\u548c\u6570\u636e&b%data%&a!"
+
+# Color Messages
+rainbow: "&c\u5f69&6\u8679"
+random: "\u968f\u673a"
+
+# Effect Messages
+effect-no-permission: "&c\u4f60\u6ca1\u6709\u4f7f\u7528\u7279\u6548&b%effect%\u7684\u6743\u9650&c!"
+effect-invalid: "&c\u7279\u6548&b%effect% &c\u4e0d\u5b58\u5728! \u8bf7\u8f93\u5165&b/pp effects &c\u67e5\u770b\u4f60\u53ef\u4ee5\u4f7f\u7528\u7684\u7279\u6548\u3002"
+effect-list: "&e\u4f60\u53ef\u4ee5\u4f7f\u7528\u4ee5\u4e0b\u7279\u6548: &b%effects%"
+effect-list-empty: "&c\u4f60\u6ca1\u6709\u4f7f\u7528\u4efb\u4f55\u7279\u6548\u7684\u6743\u9650!"
+
+# Style Messages
+style-no-permission: "&c\u4f60\u6ca1\u6709\u6743\u9650\u4f7f\u7528&b%style%\u8fd9\u4e00\u98ce\u683c&c!"
+style-event-spawning-info: "&e\u63d0\u9192: \u98ce\u683c&b%style%&e\u57fa\u4e8e\u4e8b\u4ef6\u751f\u6210\u3002"
+style-invalid: "&c\u98ce\u683c&b%style%&c\u4e0d\u5b58\u5728! \u8bf7\u8f93\u5165&b/pp styles &c\u67e5\u770b\u4f60\u53ef\u4ee5\u4f7f\u7528\u7684\u98ce\u683c\u3002"
+style-list: "&e\u4f60\u53ef\u4ee5\u4f7f\u7528\u4ee5\u4e0b\u98ce\u683c: &b%styles%"
+
+# Data Messages
+data-usage-none: "&e\u7c92\u5b50\u7279\u6548&b%effect%&e\u4e0d\u4f7f\u7528\u4efb\u4f55\u6570\u636e!"
+data-usage-block: "&e\u7c92\u5b50\u7279\u6548&b%effect%&e\u9700\u8981\u8bbe\u7f6e&b\u65b9\u5757&e\u6570\u636e! &b\u683c\u5f0f: <\u65b9\u5757ID>"
+data-usage-item: "&e\u7c92\u5b50\u7279\u6548&b%effect%&e\u9700\u8981\u8bbe\u7f6e&b\u7269\u54c1&e\u6570\u636e! &b\u683c\u5f0f: <\u7269\u54c1ID>"
+data-usage-color: "&e\u7c92\u5b50\u7279\u6548&b%effect%&e\u9700\u8981\u8bbe\u7f6e&b\u989c\u8272&e\u6570\u636e! &b\u683c\u5f0f: <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-usage-note: "&e\u7c92\u5b50\u7279\u6548&b%effect%&e\u9700\u8981\u8bbe\u7f6e&b\u97f3\u7b26&e\u6570\u636e! &b\u683c\u5f0f: <0-24>|<&brainbow>|<random>"
+data-usage-color-transition: "&e\u7c92\u5b50\u7279\u6548&b%effect%&e\u9700\u8981\u8bbe\u7f6e&b\u989c\u8272\u8fc7\u6e21&e\u6570\u636e! &b\u683c\u5f0f: <<0-255> <0-255> <0-255>>|<&brainbow>|<random> <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-usage-vibration: "&e\u7c92\u5b50\u7279\u6548&b%effect%&e\u9700\u8981\u8bbe\u7f6e&b\u632f\u52a8&e\u6570\u636e! &b\u683c\u5f0f: <\u6301\u7eed\u65f6\u95f4>"
+data-invalid-block: "&c\u4f60\u8f93\u5165\u7684&b\u65b9\u5757&c\u6570\u636e \u65e0\u6548! &b\u683c\u5f0f: <\u65b9\u5757ID>"
+data-invalid-item: "&c\u4f60\u8f93\u5165\u7684&b\u7269\u54c1&c\u6570\u636e \u65e0\u6548! &b\u683c\u5f0f: <\u7269\u54c1ID>"
+data-invalid-color: "&c\u4f60\u8f93\u5165\u7684&b\u989c\u8272&c\u6570\u636e \u65e0\u6548! &b\u683c\u5f0f: <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-invalid-note: "&c\u4f60\u8f93\u5165\u7684&b\u97f3\u7b26&c\u6570\u636e \u65e0\u6548! &b\u683c\u5f0f: <0-24>|<&brainbow>|<random>"
+data-invalid-color-transition: "&c\u4f60\u8f93\u5165\u7684&b\u989c\u8272\u8fc7\u6e21&c\u6570\u636e \u65e0\u6548! &b\u683c\u5f0f: <<0-255> <0-255> <0-255>>|<&brainbow>|<random> <<0-255> <0-255> <0-255>>|<&brainbow>|<random>"
+data-invalid-vibration: "&c\u4f60\u8f93\u5165\u7684&b\u632f\u52a8&c\u6570\u636e \u65e0\u6548! &b\u683c\u5f0f: <duration>"
+data-invalid-material-not-item: "&c\u4f60\u8f93\u5165\u7684&b\u7269\u54c1&c\u6750\u6599\u540d &b%material%&c\u4e0d\u662f\u4e00\u4ef6\u7269\u54c1!"
+data-invalid-material-not-block: "&c\u4f60\u8f93\u5165\u7684&b\u65b9\u5757&c\u6750\u6599\u540d&b%material%&c\u4e0d\u662f\u4e00\u4e2a\u65b9\u5757!"
+data-invalid-material-item: "&c\u4f60\u8f93\u5165\u7684&b\u7269\u54c1&c\u6750\u6599&b%material%\u4e0d\u5b58\u5728!"
+data-invalid-material-block: "&c\u4f60\u8f93\u5165\u7684&b\u65b9\u5757&c\u6750\u6599&b%material%!"
+
+# World Messages
+disabled-worlds: "&e\u8fd9\u4e9b\u4e16\u754c\u7981\u7528\u7c92\u5b50\u7279\u6548: &b%worlds%"
+disabled-worlds-none: "&e\u6240\u6709\u4e16\u754c\u90fd\u7981\u7528\u7c92\u5b50\u7279\u6548\u3002"
+
+# Reset Message
+reset-success: "&a\u5df2\u5220\u9664&b%amount%\u4e2a&a\u6fc0\u6d3b\u7684\u7c92\u5b50\u7279\u6548!"
+reset-others-success: "&a\u5df2\u5220\u9664&b%other%&a\u7684\u9897\u7c92!"
+reset-others-none: "&e\u6ca1\u6709\u9664\u53bb&b%other%&e\u7684\u9897\u7c92."
+
+# Fixed Create Messages
+fixed-create-missing-args: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c \u7f3a\u5c11 &b%amount% &c\u5fc5\u8981\u53c2\u6570!"
+fixed-create-invalid-coords: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u8f93\u5165\u7684\u5750\u6807\u65e0\u6548!"
+fixed-create-out-of-range: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c\u4f60\u5fc5\u987b\u5728\u76ee\u6807\u5730\u70b9&b%range%&c\u683c\u5185!"
+fixed-create-looking-too-far: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u79bb\u76ee\u6807\u65b9\u5757\u592a\u8fdc\u4e86!"
+fixed-create-effect-invalid: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c\u540d\u4e3a&b%effect%&c\u7684\u7279\u6548\u4e0d\u5b58\u5728!"
+fixed-create-effect-no-permission: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u6ca1\u6709\u6743\u9650\u4f7f\u7528\u7279\u6548&b%effect%&c!"
+fixed-create-style-invalid: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c \u540d\u4e3a&b%style%&c\u7684\u98ce\u683c\u4e0d\u5b58\u5728!"
+fixed-create-style-no-permission: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u6ca1\u6709\u6743\u9650\u4f7f\u7528\u98ce\u683c&b%style%&c!"
+fixed-create-style-non-fixable: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c \u98ce\u683c&b%style%&c\u65e0\u6cd5\u7528\u4e8e\u5b9a\u70b9\u7279\u6548!"
+fixed-create-data-error: "&c\u65e0\u6cd5\u521b\u5efa\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u6240\u7ed9\u51fa\u7684\u6570\u636e\u6709\u8bef! \u8bf7\u8f93\u5165 &b/pp data <effect> &c\u67e5\u770b\u6b63\u786e\u7684\u6570\u636e\u683c\u5f0f!"
+fixed-create-success: "&a\u6210\u529f\u521b\u5efa\u5b9a\u70b9\u7279\u6548!"
+
+# Fixed Edit Messages
+fixed-edit-missing-args: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u7f3a\u5931\u53c2\u6570!"
+fixed-edit-invalid-id: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c ID\u65e0\u6548\u6216\u4e0d\u5b58\u5728!"
+fixed-edit-invalid-property: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u53c2\u6570\u65e0\u6548! \u53ea\u6709&blocation&c\u3001&beffect&c\u3001&bstyle&c\u548c&bdata &c\u624d\u6709\u6548\u3002"
+fixed-edit-invalid-coords: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u8f93\u5165\u7684\u4e00\u4e2a\u6216\u591a\u4e2a\u5750\u6807\u65e0\u6548!"
+fixed-edit-out-of-range: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c\u4f60\u5fc5\u987b\u5728\u76ee\u6807\u5730\u70b9&b%range%&c\u683c\u5185\u624d\u80fd\u8fdb\u884c\u7f16\u8f91!"
+fixed-edit-looking-too-far: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u79bb\u76ee\u6807\u5730\u70b9\u592a\u8fdc\u4e86!"
+fixed-edit-effect-invalid: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u540d\u4e3a&b%effect%&c\u7684\u7279\u6548\u4e0d\u5b58\u5728!"
+fixed-edit-effect-no-permission: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u6ca1\u6709\u6743\u9650\u4f7f\u7528\u7279\u6548&b%effect%&c!"
+fixed-edit-style-invalid: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u540d\u4e3a&b%style%&c\u7684\u98ce\u683c\u4e0d\u5b58\u5728!"
+fixed-edit-style-no-permission: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u6ca1\u6709\u6743\u9650\u4f7f\u7528\u98ce\u683c&b%style%&c!"
+fixed-edit-style-non-fixable: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u98ce\u683c &b%style% &c\u65e0\u6cd5\u7528\u4e8e\u5b9a\u70b9\u7279\u6548!"
+fixed-edit-data-error: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u6570\u636e\u6709\u8bef! \u8bf7\u8f93\u5165 &b/pp data <effect> &cto \u6765\u83b7\u53d6\u6b63\u786e\u7684\u6570\u636e\u683c\u5f0f!"
+fixed-edit-data-none: "&c\u65e0\u6cd5\u7f16\u8f91\u5b9a\u70b9\u7279\u6548\uff0c \u8be5\u7279\u6548\u65e0\u9700\u6570\u636e!"
+fixed-edit-success: "&a\u5df2\u66f4\u65b0&b%prop%&a\u4e2aID\u4e3a&b%id%&a\u7684\u5b9a\u70b9\u7279\u6548!"
+
+# Fixed Remove Messages
+fixed-remove-invalid: "&c\u65e0\u6cd5\u5220\u9664\u5b9a\u70b9\u7279\u6548\uff0c \u4f60\u6ca1\u6709ID\u4e3a&b%id%&c\u7684\u5b9a\u70b9\u7279\u6548!"
+fixed-remove-no-args: "&c\u4f60\u6ca1\u6709\u6307\u5b9a\u8981\u5220\u9664\u7684ID!"
+fixed-remove-args-invalid: "&c\u65e0\u6cd5\u5220\u9664\uff0cID\u5fc5\u987b\u662f\u6570\u5b57!"
+fixed-remove-success: "&a\u5df2\u5220\u9664ID\u4e3a&b%id%&a\u7684\u5b9a\u70b9\u7279\u6548!"
+
+# Fixed List Messages
+fixed-list-none: "&e\u4f60\u6ca1\u6709\u5b9a\u70b9\u7279\u6548!"
+fixed-list-success: "&e\u4f60\u7684\u5b9a\u70b9\u7279\u6548ID\u4e3a: &b%ids%"
+
+# Fixed Info Messages
+fixed-info-invalid: "&c\u65e0\u6cd5\u83b7\u53d6\u4fe1\u606f\uff0c \u4f60\u6ca1\u6709ID\u4e3a&b%id%&c\u7684\u5b9a\u70b9\u7279\u6548!"
+fixed-info-no-args: "&c\u4f60\u672a\u6307\u5b9aID!"
+fixed-info-invalid-args: "&c\u65e0\u6cd5\u83b7\u53d6\u4fe1\u606f\uff0c ID\u5fc5\u987b\u662f\u6570\u5b57!"
+fixed-info-success: "&eID: &b%id% &e\u4e16\u754c: &b%world% &eX: &b%x% &eY: &b%y% &eZ: &b%z% &e\u7279\u6548: &b%effect% &e\u98ce\u683c: &b%style% &e\u6570\u636e: &b%data%"
+
+# Fixed Clear Messages
+fixed-clear-no-permission: "&c\u4f60\u6ca1\u6709\u6e05\u7a7a\u9644\u8fd1\u5b9a\u70b9\u7279\u6548\u7684\u6743\u9650!"
+fixed-clear-no-args: "&c\u4f60\u6ca1\u6709\u7ed9\u51fa\u6e05\u7a7a\u5b9a\u70b9\u7279\u6548\u7684\u8303\u56f4!"
+fixed-clear-invalid-args: "&c\u4f60\u8f93\u5165\u7684\u8303\u56f4\u65e0\u6548\uff0c\u8303\u56f4\u5fc5\u987b\u662f\u6b63\u6574\u6570!"
+fixed-clear-success: "&a\u5df2\u6e05\u9664&b%amount%&a\u4e2a&b%range%&a\u683c\u5185\u7684\u5b9a\u70b9\u7279\u6548!"
+
+# Fixed Teleport Message
+fixed-teleport-no-permission: "&c\u60a8\u65e0\u6743\u4f20\u9001\u5230\u56fa\u5b9a\u6548\u679c!"
+fixed-teleport-no-args: "&c\u60a8\u6ca1\u6709\u6307\u5b9a\u8981\u4f20\u9001\u5230\u7684ID!"
+fixed-teleport-invalid-args: "&c\u65e0\u6cd5\u4f20\u9001\uff0c\u6307\u5b9a\u7684ID\u65e0\u6548!"
+fixed-teleport-success: "&e\u4f20\u9001\u5230ID&b%id%&e\u7684\u56fa\u5b9a\u6548\u679c!"
+
+# Fixed Other Messages
+fixed-no-permission: "&c\u4f60\u6ca1\u6709\u4f7f\u7528\u5b9a\u70b9\u7279\u6548\u7684\u6743\u9650!"
+fixed-max-reached: "&c\u4f60\u5df2\u8fbe\u5230\u53ef\u4f7f\u7528\u5b9a\u70b9\u7279\u6548\u7684\u6570\u91cf\u4e0a\u9650!"
+fixed-invalid-command: "&c\u4f60\u8f93\u5165\u4e86\u65e0\u6548\u7684\u5b50\u6307\u4ee4!"
+
+# Plugin Update Message
+update-available: "&e\u6709\u65b0\u7248\u672c\u66f4\u65b0\uff1a(&bv%new%&e)!\u4f60\u4f7f\u7528\u7684\u7248\u672c\u4e3a&bv%current%&e\u3002 https://www.spigotmc.org/resources/playerparticles.40261/"
+
+# GUI Messages
+gui-disabled: "&c\u670d\u52a1\u5668\u7ba1\u7406\u5458\u5df2\u5173\u95ed\u83dc\u5355!"
+gui-no-permission: "&c\u60a8\u65e0\u6743\u6253\u5f00\u83dc\u5355!"
+
+# GUI Color Messages
+gui-color-icon-name: '&a'
+gui-color-info: '&e'
+gui-color-subtext: '&b'
+gui-color-unavailable: '&c'
+
+# GUI Info Messages
+gui-commands-info: "\u8f93\u5165 &b/pp help \u67e5\u770b\u6307\u4ee4\u5e2e\u52a9"
+gui-toggle-visibility-on: "\u7c92\u5b50\u76ee\u524d\u53ef\u89c1"
+gui-toggle-visibility-off: "\u7c92\u5b50\u76ee\u524d\u88ab\u9690\u85cf"
+gui-toggle-visibility-info: "\u5355\u51fb\u4ee5\u5207\u6362\u7c92\u5b50\u7684\u53ef\u89c1\u6027"
+gui-back-button: "\u8fd4\u56de"
+gui-next-page-button: "\u4e0b\u4e00\u9875 (%start%/%end%)"
+gui-previous-page-button: "\u4e0a\u4e00\u9875 (%start%/%end%)"
+gui-click-to-load: "\u70b9\u51fb\u52a0\u8f7d%amount% \u4e2a\u7c92\u5b50\u7279\u6548:"
+gui-shift-click-to-delete: "Shift+\u70b9\u51fb \u5220\u9664"
+gui-particle-info: "  - ID: &b%id% &e\u7279\u6548: &b%effect% &e\u98ce\u683c: &b%style% &e\u6570\u636e: &b%data%"
+gui-playerparticles: "\u7c92\u5b50\u7279\u6548"
+gui-active-particles: "\u6fc0\u6d3b\u7684\u7c92\u5b50: &b%amount%"
+gui-saved-groups: "\u5df2\u4fdd\u5b58\u7684\u7c92\u5b50\u7ec4: &b%amount%"
+gui-fixed-effects: "\u5b9a\u70b9\u7279\u6548: &b%amount%"
+
+# GUI Edit Primary Messages
+gui-edit-primary-effect: "\u7f16\u8f91\u4e4b\u524d\u4f7f\u7528\u7684\u7c92\u5b50\u7684\u7279\u6548"
+gui-edit-primary-effect-description: "\u7f16\u8f91\u4e4b\u524d\u4f7f\u7528\u7684\u7c92\u5b50\u7684\u7279\u6548"
+gui-edit-primary-style: "\u7f16\u8f91\u4e4b\u524d\u4f7f\u7528\u7c92\u5b50\u7684\u98ce\u683c"
+gui-edit-primary-style-missing-effect: "\u4f60\u5fc5\u987b\u5148\u9009\u62e9\u4e00\u4e2a\u7279\u6548"
+gui-edit-primary-style-description: "\u7f16\u8f91\u4e4b\u524d\u4f7f\u7528\u7c92\u5b50\u7684\u98ce\u683c"
+gui-edit-primary-data: "\u7f16\u8f91\u4e4b\u524d\u4f7f\u7528\u7c92\u5b50\u7684\u6570\u636e"
+gui-edit-primary-data-missing-effect: "\u4f60\u5fc5\u987b\u5148\u9009\u62e9\u4e00\u4e2a\u7279\u6548"
+gui-edit-primary-data-unavailable: "\u4f60\u4e4b\u524d\u4f7f\u7528\u7684\u7279\u6548\u6ca1\u6709\u4f7f\u7528\u4efb\u4f55\u6570\u636e"
+gui-edit-primary-data-description: "\u7f16\u8f91\u4e4b\u524d\u4f7f\u7528\u7684\u7279\u6548\u7684\u6570\u636e"
+
+# GUI Manage Particles Messages
+gui-manage-your-particles: "\u7ba1\u7406\u4f60\u7684\u7c92\u5b50\u7279\u6548"
+gui-manage-your-particles-name: "\u7ba1\u7406\u4f60\u7684\u7c92\u5b50\u7279\u6548"
+gui-manage-your-particles-description: "\u521b\u5efa\u3001\u7f16\u8f91\u548c\u5220\u9664\u4f60\u7684\u7c92\u5b50\u7279\u6548"
+gui-manage-your-groups: "\u7ba1\u7406\u4f60\u7684\u7279\u6548\u7ec4"
+gui-manage-your-groups-name: "\u7ba1\u7406\u4f60\u7684\u7279\u6548\u7ec4"
+gui-manage-your-groups-description: "\u521b\u5efa\u3001\u5220\u9664\u548c\u52a0\u8f7d\u4f60\u7684\u7c92\u5b50\u7ec4"
+
+# GUI Load Messages
+gui-load-a-preset-group: "\u52a0\u8f7d\u9884\u8bbe\u7c92\u5b50\u7ec4"
+gui-load-a-preset-group-description: "\u52a0\u8f7d\u9884\u8bbe\u7c92\u5b50\u7ec4"
+
+# GUI Save Messages
+gui-save-group: "\u4fdd\u5b58\u65b0\u7684\u7c92\u5b50\u7ec4"
+gui-save-group-description: "\u70b9\u51fb\u4fdd\u5b58\u4e3a\u65b0\u7684\u7c92\u5b50\u7ec4\u3002\u4f60\u9700\u8981\n\u5728\u804a\u5929\u6846\u5185\u8f93\u5165\u540d\u79f0\u3002"
+gui-save-group-full: "\u4f60\u5df2\u8fbe\u5230\u7c92\u5b50\u7ec4\u4e0a\u9650"
+gui-save-group-no-particles: "\u4f60\u6ca1\u6709\u4f7f\u7528\u7c92\u5b50\u7279\u6548"
+gui-save-group-hotbar-message: "&e\u8bf7\u5728\u804a\u5929\u6846\u5185\u8f93\u5165&b1 &e\u65b0\u7684\u7c92\u5b50\u7ec4\u540d\u3002 \u8f93\u5165 &ccancel&e \u53d6\u6d88\u3002 (\u5269\u4f59&b%seconds%&e\u79d2)"
+gui-save-group-chat-message: "&e\u4f7f\u7528&b/pp group save <\u540d\u79f0>&e\u6765\u4fdd\u5b58\u4e00\u4e2a\u65b0\u7684\u7c92\u5b50\u7ec4\u3002"
+
+# GUI Reset Messages
+gui-reset-particles: "\u91cd\u7f6e\u4f60\u7684\u7c92\u5b50\u7279\u6548"
+gui-reset-particles-description: "\u5220\u9664\u4f60\u6fc0\u6d3b\u7684\u6240\u6709\u7c92\u5b50\u7279\u6548"
+
+# GUI Misc Messages
+gui-particle-name: "\u7c92\u5b50 #%id%"
+gui-click-to-edit-particle: "\u70b9\u51fb\u7f16\u8f91\u7c92\u5b50\u7279\u6548\u3001\u98ce\u683c\u6216\u6570\u636e"
+gui-editing-particle: "\u7f16\u8f91\u7c92\u5b50#%id%\u4e2d"
+
+# GUI Edit Messages
+gui-edit-effect: "\u7f16\u8f91\u7279\u6548"
+gui-edit-effect-description: "\u70b9\u51fb\u7f16\u8f91\u7c92\u5b50\u7279\u6548"
+gui-edit-style: "\u7f16\u8f91\u98ce\u683c"
+gui-edit-style-description: "\u70b9\u51fb\u7f16\u8f91\u7c92\u5b50\u98ce\u683c"
+gui-edit-data: "\u7f16\u8f91\u6570\u636e"
+gui-edit-data-description: "\u70b9\u51fb\u7f16\u8f91\u7c92\u5b50\u6570\u636e"
+gui-edit-data-unavailable: "\u8fd9\u4e2a\u7c92\u5b50\u7279\u6548\u4e0d\u4f7f\u7528\u6570\u636e"
+gui-data-none: "\u65e0"
+
+# GUI Create Messages
+gui-create-particle: "\u521b\u5efa\u65b0\u7684\u7c92\u5b50\u7279\u6548"
+gui-create-particle-description: "\u521b\u5efa\u65b0\u7684\u7c92\u5b50\u7279\u6548"
+gui-create-particle-unavailable: "\u4f60\u4e0d\u80fd\u521b\u5efa\u66f4\u591a\u7684\u7c92\u5b50\u7279\u6548"
+
+# GUI Select Messages
+gui-select-effect: "\u9009\u62e9\u7c92\u5b50\u7279\u6548"
+gui-select-effect-description: "\u5c06\u7c92\u5b50\u7279\u6548\u8bbe\u7f6e\u4e3a &b%effect%"
+gui-select-style: "\u9009\u62e9\u7c92\u5b50\u98ce\u683c"
+gui-select-style-description: "\u5c06\u7c92\u5b50\u98ce\u683c\u8bbe\u7f6e\u4e3a &b%style%"
+gui-select-data: "\u9009\u62e9\u7c92\u5b50\u6570\u636e"
+gui-select-data-description: "\u5c06\u7c92\u5b50\u6570\u636e\u8bbe\u7f6e\u4e3a&b%data%"
+gui-select-data-note: 'Note #%note%'
+gui-select-data-color-transition-start: "&e\u9009\u62e9\u8d77\u59cb\u989c\u8272"
+gui-select-data-color-transition-end: "&e\u9009\u62e9\u672b\u7aef\u989c\u8272"
+gui-select-data-vibration: '&b%ticks% &eticks'
+
+# GUI Color Name Messages
+gui-edit-data-color-red: "#ff0000\u7ea2\u8272"
+gui-edit-data-color-orange: "#ff8c00\u6a59\u9ec4"
+gui-edit-data-color-yellow: "#ffff00\u9ec4\u8272"
+gui-edit-data-color-lime-green: "#32cd32\u6de1\u7eff"
+gui-edit-data-color-green: "#008000\u7eff\u8272"
+gui-edit-data-color-blue: "#0000ff\u84dd\u8272"
+gui-edit-data-color-cyan: "#008b8b\u9752\u8272"
+gui-edit-data-color-light-blue: "#add8e6\u6de1\u84dd\u8272"
+gui-edit-data-color-purple: "#8a2be2\u7d2b\u8272"
+gui-edit-data-color-magenta: "#ca1f7b\u6d0b\u7ea2"
+gui-edit-data-color-pink: "#ffb6c1\u7c89\u8272"
+gui-edit-data-color-brown: "#8b4513\u68d5\u8272"
+gui-edit-data-color-black: "#000000\u9ed1\u8272"
+gui-edit-data-color-gray: "#808080\u7070\u8272"
+gui-edit-data-color-light-gray: "#c0c0c0\u6de1\u7070"
+gui-edit-data-color-white: "#ffffff\u767d\u8272"
